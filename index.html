@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main w-screen">
+        <div class="nav w-screen h-28 flex items-center justify-between px-16">
+            <img class="h-16" src="./src/main.png" alt="">
+            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+                <li><a  class="hover:text-red-500" href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button>
+            <div class="menu">
+                <i class="ri-menu-line hidden text-black"></i>
+                <ul class="flex gap-20 text-lg font-medium hidden ">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home w-screen h-[82vh] flex items-center justify-center">
+            <div class="left w-[60%] h-full flex justify-center flex-col pl-[7vw] gap-9">
+                <div class="head leading-snug">
+                    <h1 class="text-[4.6vw] font-black ">College ke <span class="text-[#BD2930]">sath bhi !!</span></h1>
+                    <h1 class=" text-[4.6vw] font-black">College ke baad bhi !</h1>
+                </div>
+                <div class="text w-[70%]">
+                    <p class="text-lg font-medium">Hiremi, where we connect talent with opportunities, empowering India's youth to become tomorrow's leaders.</p>
+                </div>
+                <div class="buttons flex gap-10">
+                    <button class="px-6 py-2.5 rounded-2xl text-white text-md font-semibold">Download App</button>
+                    <button class="px-8 py-2.5 rounded-2xl border-2 border-black bg-white text-md font-semibold">For Bussiness</button>
+                </div>
+            </div>
+            <div class="right w-[50%] h-full flex items-center justify-center">
+                <img class="h-[45vw] object-cover" src="./src/mobile.png" alt="">
+            </div>
+        </div>
+        <div class="career w-screen min-h-screen flex flex-col items-center mt-[30vh] gap-20">
+            <div class="container w-[65vw] h-[48vh] bg-[#F7F7F7] flex rounded-3xl">
+                <div class="picture w-[30vw] h-[100%] bg-[#DBDBDB] flex items-center justify-center rounded-3xl">
+                    <img class=" h-[100%] w-[70%] object-cover" src="./src/girl image.png" alt="">
+                </div>
+                <div class="dets w-[40vw] h-[100%] flex flex-col justify-center pl-[2vw] gap-2">
+                    <h3 class="text-md font-semibold">For College Student</h3>
+                    <h1 class="text-[3vw] font-black text-[#BD2930]">Assisting Individuals</h1>
+                    <p class="w-[85%] text-[1.2vw] font-medium leading-snug">Discover opportunities for jobs, internships, and mentorship under one roof. Connect with skilled professionals to foster mutual success in your career journey.</p>
+                    <h3 class="text-md font-semibold text-[#BD2930]">Learn more</h3>
+                </div>
+            </div>
+            <div class="container w-[65vw] h-[48vh] bg-[#F7F7F7] flex rounded-3xl flex-row-reverse">
+                <div class="picture w-[30vw] h-[100%] bg-[#DBDBDB] flex items-center justify-center rounded-3xl">
+                    <img class="h-[100%] w-[80%] object-cover" src="./src/men image.png" alt="">
+                </div>
+                <div class="dets w-[40vw] h-[100%] flex flex-col justify-center pl-[2vw] gap-2">
+                    <i class="ri-arrow-right-line text-2xl text-[#BD2930] pl-[7vw]"></i>
+                    <h3 class="text-md font-semibold">For B2B</h3>
+                    <h1 class="text-[3vw] font-black text-[#BD2930]">Empowering Businesses</h1>
+                    <p class="w-[85%] text-[1.2vw] font-medium leading-snug">Hiremi enhances B2B operations with expert project management and streamlined recruitment outsourcing, optimizing resources for strategic business growth.</p>
+                    <h3 class="text-md font-semibold text-[#BD2930]">Learn more</h3>
+                </div>
+            </div>
+        </div>
+        <div class="growth w-screen min-h-screen mt-[20vh] relative flex items-center">
+            <div class="growthImage w-[50%] h-screen gap-20">
+                <div class="w-[12vw] h-[12vw] rounded-full bg-[#F13640] flex items-center justify-center">
+                    <img class="h-20" src="./src/discuss.png" alt="">
+                </div>
+                <div class="w-[12vw] h-[12vw] rounded-full bg-[#BD2930] flex items-center justify-center">
+                    <img class="h-20" src="./src/hand shake2.png" alt="">
+                </div>
+                <div class="w-[12vw] h-[12vw] rounded-full bg-[#BF454B] flex items-center justify-center">
+                    <img class="h-20" src="./src/job offer.png" alt="">
+                </div>
+                <div class="w-[12vw] h-[12vw] rounded-full bg-[#801C20] flex items-center justify-center">
+                    <img class="h-20" src="./src/intern.png" alt="">
+                </div>
+            </div>
+            <div class="circle w-[24vw] h-[24vw] bg-white rounded-full drop-shadow-md absolute top-[12vw] left-[15vw] flex items-center justify-center">
+                <img class="h-[7vw] " src="./src/main.png" alt="">
+            </div>
+            <div class="growthAbout w-[50%] h-screen w-[40vw] h-[100%] flex flex-col justify-center pl-[3vw] gap-4">
+                <h3 class="text-xl font-semibold text-[#BD2930]">Our pathway to</h3>
+                    <h1 class="text-[3.8vw] font-black leading-tight ">Business Efficiency & <span class="text-[#BD2930]">Growth</span></h1>
+                    <p class="w-[48vw] text-[1.4vw] font-medium"><span>Hiremi</span> enhances business efficiency with expert project management and <span>recruitment outsourcing</span>. We secure top talent, support development through jobs and mentorship, and ensure <span>sustainable growth</span>, fostering a skilled workforce and successful partnerships.</p>
+                    <button class=" w-fit px-7 py-2 rounded-full text-xl font-semibold mt-5 text-white text-left">Learn more</button>
+            </div>
+        </div>
+        <div class="app w-screen h-screen pt-20 overflow-hidden">
+            <div class="section w-screen h-[80vh] bg-black mt-20 flex">
+                <div class="image w-[50%] h-full relative">
+                    <img class="h-[115vh] w-[37vw] top-[-7vh] left-[13.5vw] absolute" src="./src/app.png" alt="">
+                </div>
+                <div class="path w-[50%] h-full flex flex-col justify-center pl-[15vw]">
+                    <h1 class="text-5xl font-black mb-5 text-white">Hire<span class="text-[#BD2930]">mi</span></h1>
+                    <h1 class="text-5xl font-black mb-5 leading-normal text-white">India's No. 1 <br> Career Path App</h1>
+                    <p class="text-xl pr-5 font-semibold mb-5 text-white">Your one-stop destination for jobs, internships, and mentorship programs all over India."</p>
+                    <div class="divide-x flex gap-5 py-4">
+                        <button class="border text-white px-10 py-2 rounded-full">Download Now</button>
+                        <div class="text-white text-3xl">
+                            <i class="ri-apple-fill ml-5"></i>
+                            <i class="ri-google-play-fill text-white ml-5"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clients w-screen h-screen flex items-center justify-center ">
+            <div class="choose w-[35%] h-full flex items-center justify-center pl-16">
+                <h1 class="text-[4.5vw] font-black leading-snug" >Why do our <span class="text-[#BD2930]">clients</span> choose us?</h1>
+            </div>
+            <div class="feature w-[65%] h-full grid pl-10 grid-cols-2 pt-32 ">
+                <div class="flex items-center justify-center w-[28vw] h-[27vh] gap-8">
+                    <div class="logo bg-[#DBDBDB] w-[12vw] h-[7vw] flex items-center justify-center rounded-full">
+                        <img class="h-[50%]" src="./src/user.png" alt="">
+                    </div>
+                    <div class="conatain">
+                        <h1 class="text-2xl font-black mb-5">Verified users</h1>
+                        <p class="text-lg font-medium leading-tight">Our app ensures candidates have authentic skill sets.</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center w-[28vw] h-[27vh] gap-8">
+                    <div class="logo bg-[#DBDBDB] w-[15vw] h-[7vw] flex items-center justify-center rounded-full">
+                        <img class="h-[50%]" src="./src/skill.png" alt="">
+                    </div>
+                    <div class="conatain">
+                        <h1 class="text-2xl font-black mb-5">⁠Expert management</h1>
+                        <p class="text-lg font-medium leading-tight">We bring expertise to our clients' project management operations.</p>
+                    </div>  
+                </div>
+                <div class="flex items-center justify-center w-[28vw] h-[27vh] gap-8">
+                    <div class="logo bg-[#DBDBDB] w-[15vw] h-[7vw] flex items-center justify-center rounded-full">
+                        <img class="h-[50%]" src="./src/soft skill.png" alt="">
+                    </div>
+                    <div class="conatain">
+                        <h1 class="text-2xl font-black mb-5">Targeted domain skills</h1>
+                        <p class="text-lg font-medium leading-tight">Our workforce possesses the exact knowledge required by our clients.</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center w-[28vw] h-[27vh] gap-8">
+                    <div class="logo bg-[#DBDBDB] w-[12.5vw] h-[7.5vw] flex items-center justify-center rounded-full">
+                        <img class="h-[50%]" src="./src/certificate.png" alt="">
+                    </div>
+                    <div class="conatain">
+                        <h1 class="text-2xl font-black mb-5">⁠Certified proficiencies</h1>
+                        <p class="text-lg font-medium leading-tight">Our workforce is certified through the Hiremi app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="candidates w-screen h-[85vh] bg-black flex items-center justify-between flex-col py-20">
+            <h1 class="text-5xl text-white font-black">Apke Development Ka Sathi Hire<span class="text-[#BD2930]">mi</span>!</h1>
+            <div class="px-[5rem] py-[1rem] bg-white text-center rounded-3xl">
+                <h1 class="text-[3.5vw] leading-tight font-black "><span class="text-[#BD2930] text-[4.5vw]">8000+</span> <br>Candidates</h1>
+            </div>
+            <h1 class="text-[2.5vw] text-white">“Empowered with internships, mentorships, and job opportunities nationwide."</h1>
+        </div>
+        <footer class="w-screen h-[50vh] pt-20 flex">
+            <div class="about w-[65vw] h-full ">
+                <ul class="flex items-center justify-between px-20">
+                    <li class="flex flex-col gap-5">
+                        <h1 class="text-2xl font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="text-xl font-bold">Requirement Outsourcing</h1>
+                        <h1 class="text-xl font-bold">Project Oversight</h1>
+                        <h1 class="text-xl font-bold">Hiring Platform</h1>
+                    </li>
+                    <li class="flex flex-col gap-5">
+                        <h1 class="text-2xl font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="text-xl font-bold">About Us</h1>
+                        <h1 class="text-xl font-bold">Careers</h1>
+                        <h1 class="text-xl font-bold">Our App</h1>
+                    </li>
+                    <li class="flex flex-col gap-5">
+                        <h1 class="text-2xl font-bold text-[#BD2930]">Help</h1>
+                        <h1 class="text-xl font-bold">Contact Us</h1>
+                        <h1 class="text-xl font-bold">Privacy Policy</h1>
+                        <h1 class="text-xl font-bold">Terms & Conditions</h1>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="contact w-[35vw] h-full flex flex-col text-left gap-4">
+                <div class="flex divide-x-2 divide-black items-center justify-center gap-4">
+                    <img class="h-20" src="./src/main.png" alt="">
+                    <div class="text-4xl pl-4 flex gap-6">
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-fill"></i>
+                        <i class="ri-mail-line"></i>
+                    </div>
+                </div>
+                <div class="text-xl font-semibold pl-16 flex flex-col gap-4">
+                    <h1>+91-9302707264</h1>
+                    <h1>support@hiremi.in</h1>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
