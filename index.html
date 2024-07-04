@@ -13,46 +13,47 @@
 </head>
 <body>
     <div class="main w-screen">
-        <div class="nav w-screen h-28 flex items-center justify-between px-16">
+        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
             <img class="h-16" src="./src/main.png" alt="">
             <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
-                <li><a  class="hover:text-red-500" href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a  class="hover:text-[#BD2930]" href="#">About Us</a></li>
+                <li><a class="hover:text-[#BD2930]" href="#">Services</a></li>
+                <li><a class="hover:text-[#BD2930]" href="#">Careers</a></li>
+                <li><a class="hover:text-[#BD2930]" href="#">Contact Us</a></li>
             </ul>
             <button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button>
-            <div class="menu">
-                <i class="ri-menu-line hidden text-black"></i>
-                <ul class="flex gap-20 text-lg font-medium hidden ">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+            <i class="ri-menu-line hidden text-black"></i>
+            <div class="menu absolute top-[-10%] px-4">
+                <div class="flex justify-between ">
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact Us</a>
+                    <i class="ri-close-line text-black"></i>
+                </div>
             </div>
         </div>
-        <div class="home w-screen h-[82vh] flex items-center justify-center">
-            <div class="left w-[60%] h-full flex justify-center flex-col pl-[7vw] gap-9">
-                <div class="head leading-snug">
+        <div class="home w-screen h-[82vh] flex items-center justify-center pt-10">
+            <div class="left w-[60vw] h-full flex justify-center flex-col pl-[7vw] gap-9">
+                <div class="head leading-snug w-[100vw]">
                     <h1 class="text-[4.6vw] font-black ">College ke <span class="text-[#BD2930]">sath bhi !!</span></h1>
                     <h1 class=" text-[4.6vw] font-black">College ke baad bhi !</h1>
                 </div>
-                <div class="text w-[70%]">
-                    <p class="text-lg font-medium">Hiremi, where we connect talent with opportunities, empowering India's youth to become tomorrow's leaders.</p>
+                <div class="text w-[100vw]">
+                    <p class="text-lg font-medium">Hiremi, where we connect talent with opportunities, <br> empowering India's youth to become tomorrow's leaders.</p>
                 </div>
                 <div class="buttons flex gap-10">
                     <button class="px-6 py-2.5 rounded-2xl text-white text-md font-semibold">Download App</button>
                     <button class="px-8 py-2.5 rounded-2xl border-2 border-black bg-white text-md font-semibold">For Bussiness</button>
                 </div>
             </div>
-            <div class="right w-[50%] h-full flex items-center justify-center">
+            <div class="right w-[60%] h-full flex items-center text-left">
                 <img class="h-[45vw] object-cover" src="./src/mobile.png" alt="">
             </div>
         </div>
         <div class="career w-screen min-h-screen flex flex-col items-center mt-[30vh] gap-20">
-            <div class="container w-[65vw] h-[48vh] bg-[#F7F7F7] flex rounded-3xl">
-                <div class="picture w-[30vw] h-[100%] bg-[#DBDBDB] flex items-center justify-center rounded-3xl">
+            <div class="container w-[65vw] h-[30vw] bg-[#F7F7F7] flex rounded-[2vw]">
+                <div class="picture w-[30vw] h-[100%] bg-[#DBDBDB] flex items-center justify-center rounded-[1.5vw]">
                     <img class=" h-[100%] w-[70%] object-cover" src="./src/girl image.png" alt="">
                 </div>
                 <div class="dets w-[40vw] h-[100%] flex flex-col justify-center pl-[2vw] gap-2">
