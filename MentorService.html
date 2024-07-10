@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+            <img class="h-16" src="./src/main.png" alt="">
+            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+                <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
+                <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
+                <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
+                <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
+            </ul>
+            <button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button>
+            <i class="menubar ri-menu-line hidden text-black"></i>
+            <div class="menu absolute top-[-10%] px-4">
+                <div class="flex justify-between ">
+                    <a href="./about.html">About Us</a>
+                    <a id="serve" href="#">Services</a>
+                    <a href="./career.html">Careers</a>
+                    <a href="./contact.html">Contact Us</a>
+                    <i class="ri-close-line text-black"></i>
+                </div>
+            </div>
+        </div>
+        <div class="services md:w-[78vw] md:h-[42vh] bg-[#F7F7F7] w-[80vw] h-[30vh] opacity-0 md:top-[-50vh] top-[-60vh] drop-shadow-xl absolute flex justify-around ml-[10vw] z-10 md:rounded-3xl rounded-lg pt-10 pl-5">
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw]">
+                <h1 class="text-[#BD2930] font-black">For Individuals</h1>
+                <a href="#">Mentorship</a>
+                <a href="#">Application Monitoring Services</a>
+                <a href="#">Job and Internship Opportunities</a>
+            </div>
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw] ">
+                <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
+                <a href="#">Project Oversight</a>
+                <a href="#">Recruitment Outsourcing</a>
+                <a href="#">Recruiters Hiring Platform</a>
+            </div>
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw]">
+                <h1 class="text-[#BD2930] font-black">For Colleges</h1>
+                <a href="#">College Partnership</a>
+            </div>
+        </div>
+        <div class="app w-screen md:h-[40vw] h-auto md:my-0 my-10">
+            <div class="section w-screen md:h-[45vw] h-full flex flex-row-reverse">
+                <div class="image w-[45vw] md:h-full relative">
+                    <img class="md:h-[42vw] md:w-[40vw] object-cover w-[60vw] md:top-[4vh] top-[10vh] left-[0vw] md:left-[0vw] absolute z-0" src="./src/vision assist.gif" alt="">
+                </div>
+                <div class="path w-[55vw] md:h-full h-[45vh] flex flex-col justify-center md:pl-[6vw] pl-[5vw]">
+                    <h1 class="md:text-[4.4vw] text-lg font-black leading-tight md:mb-8 mb-4">Are you a <span class="text-[#BD2930]">college student</span> stuck in your career journey?</h1>
+                    <p class="md:text-[1.4vw] text-sm font-medium md:mb-8 mb-2 ">Hiremi Company offers a wide range of internship and job opportunities, professional development programs, and industry connections to help you advance your career.</p>
+                </div>
+            </div>
+        </div>
+        <div class="app w-screen md:h-[40vw] h-auto md:my-10 my-10">
+            <div class="section w-screen md:h-[42vw] h-[45vh] flex flex-row-reverse">
+                <div class="image w-[40vw] md:h-full relative">
+                    <img class="md:h-full md:w-[50vw] object-cover w-[60vw] md:top-[4vh] top-[10vh] left-[0vw] md:left-[0vw] absolute z-0" src="./src/Bussiness support.gif" alt="">
+                </div>
+                <div class="path w-[60vw] md:h-full h-[45vh] flex flex-col justify-center md:pl-[6vw] pl-[5vw]">
+                    <h1 class="md:text-[5vw] text-lg font-black leading-tight md:mb-16 mb-4">What Hire<span class="text-[#BD2930]">mi offers</span></h1>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="circle p-3 bg-[#BD2930] rounded-full"></div>
+                        <p class="md:text-[1.5vw] text-sm font-medium ">Expert advice on career direction, study plans, and learning methods.</p>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="circle p-3 bg-[#BD2930] rounded-full"></div>
+                        <p class="md:text-[1.5vw] text-sm font-medium ">Emproved networking and communication skills.</p>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="circle p-3 bg-[#BD2930] rounded-full"></div>
+                        <p class="md:text-[1.5vw] text-sm font-medium ">Hands-on experience with guaranteed internships.</p>
+                    </div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="circle p-3 bg-[#BD2930] rounded-full"></div>
+                        <p class="md:text-[1.5vw] text-sm font-medium ">⁠Support in all fields related to your career journey..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="verify w-screen md:h-[40vw] flex md:flex-row flex-col-reverse md:mt-0 md:pt-0 pt-10 md:mb-10">
+            <div class="app md:w-[58vw] w-screen md:h-full flex items-center justify-center">
+                <div class="steps md:w-[32vw] w-[60vw] h-full flex flex-col md:gap-14 gap-8 py-20 px-[5vw] justify-center">
+                    <div class="process flex gap-[2vw] items-center md:text-[1.8vw] text-[3vw] font-medium">
+                        <h1 class="md:w-[3.5vw] w-[8vw] md:h-[3.5vw] h-[8vw] bg-[#BD2930] rounded-full flex items-center font-medium md:text-[1.4vw] text-[2.5vw] justify-center">01</h1>
+                        <h3 class="bg-[#BD2930] px-6 py-2 rounded-full font-semibold text-white">Download Now</h3>
+                    </div>
+                    <div class="process flex gap-[2vw] items-center md:text-[1.8vw] text-[3vw] font-medium">
+                        <h1 class="md:w-[3.5vw] w-[8vw] md:h-[3.5vw] h-[8vw] bg-[#EEEEEE] rounded-full flex items-center font-medium md:text-[1.4vw] text-[2.5vw] justify-center">02</h1>
+                        <h3>Register</h3>
+                    </div>
+                    <div class="process flex gap-[2vw] items-center md:text-[1.8vw] text-[3vw] font-medium">
+                        <h1 class="md:w-[3.5vw] w-[8vw] md:h-[3.5vw] h-[8vw] bg-[#EEEEEE] rounded-full flex items-center font-medium md:text-[1.4vw] text-[2.5vw] justify-center">03</h1>
+                        <h3>Login</h3>
+                    </div>
+                    <div class="process flex gap-[2vw] items-center md:text-[1.8vw] text-[3vw] font-medium">
+                        <h1 class="md:w-[3.5vw] w-[8vw] md:h-[3.5vw] h-[8vw] bg-[#EEEEEE] rounded-full flex items-center font-medium md:text-[1.4vw] text-[2.5vw] justify-center">04</h1>
+                        <h3>Review and Verify</h3>
+                    </div>
+                </div>
+                <div class="screen md:w-[25vw] w-[40vw] md:h-[43vw] text-[2.5vw] flex items-center relative">
+                    <img class="h-[60%] rotate-[-20deg] object-cover" src="./src/phone.png" alt="">
+                    <img class="md:h-[57.5%] h-[96%] md:top-[9vw] top-[0vw] md:left-[-0.1vw] object-cover rotate-[-20deg] absolute" src="./src/screen.png" alt="">
+                    <img class="absolute top-[18vw] left-[-2.5vw]" src="./src/shadow.png" alt="">
+                </div>
+            </div>
+            <div class="users md:w-[42vw] w-screen md:h-full h-auto flex flex-col justify-center pl-10">
+                <h1 class="md:text-[3vw] text-[3.5vw] font-bold text-[#BD2930] md:mb-8 mb-4">Who Can Apply ? <br> <span class="md:text-[4vw] text-[5vw] text-black" >Only</span> <span class="md:text-[4vw] text-[5vw] text-[#F13640]" >Verified Users</span></h1>
+                <p class="md:text-[1.3vw] text-[3vw] font-medium" >Our Recruiters prefer profiles with verified accounts for <br> enhanced trust and credibility.</p>
+            </div>
+        </div>
+        <div class="app w-screen md:h-[40vw] h-[80vw] md:my-0 my-10 bg-black relative">
+            <div class="section w-screen md:h-full h-full flex flex-row-reverse">
+                <div class="image w-[45vw] md:h-full relative">
+                    <img class="md:h-[36vw] h-[40vw] md:w-[22vw] object-cover w-[25vw] md:top-[2vw] top-[25vw] left-[10vw] md:left-[10vw] absolute z-0" src="./src/app.png" alt="">
+                </div>
+                <div class="path w-[55vw] md:h-full h-[45vh] flex flex-col justify-center md:pl-[6vw] pl-[5vw] md:pt-[10vw] pt-[5vw]">
+                    <h1 class="md:text-[4.2vw] text-lg font-black text-white leading-tight md:mb-8 mb-4">Providing a perfect <span class="text-[#BD2930]">roadmap to excel</span> in your career or particular domain.</h1>
+                </div>
+                <div>
+                    <img class="h-[2.5vw] w-[10vw] rounded-lg absolute object-cover md:top-[6vw] top-[30vw] left-[55vw] md:left-[55vw]" src="./src/experience job.png" alt="">
+                    <img class="h-[2.5vw] w-[10vw] rounded-lg absolute object-cover md:top-[14.5vw] top-[38vw] left-[90vw] md:left-[88vw]" src="./src/fresher.png" alt="">
+                    <img class="h-[2.5vw] w-[10vw] rounded-lg absolute object-cover md:top-[35.5vw] top-[60vw] left-[55vw] md:left-[55vw]" src="./src/internship.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer class="md:w-screen md:h-[60vh] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
+            <div class="download md:w-[28vw] w-screen h-full flex flex-col text-left gap-4 pt-5 md:pt-0 text-center md:text-left">
+                <div class="md:w-[28vw] w-screen md:pl-16">
+                    <img class="md:h-24 h-12 pl-[35vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="text-sm font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+                </div>
+                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 pl-16">
+                    <button class="border-2 border-black md:px-10 md:py-2 text-sm px-6 py-1 rounded-full">Download Now</button>
+                    <div class=" md:text-2xl">
+                        <i class="ri-apple-fill ml-4"></i>
+                        <i class="ri-google-play-fill ml-2"></i>
+                    </div>
+                </div>
+                <p class="text-xs md:pl-20">&copy;2021 All Rights Rsserved</p>
+            </div>
+            <div class="about md:w-[72vw] w-[100vw] h-full text-center md:text-left ">
+                <ul class="w-full md:flex justify-between md:px-20 px-4">
+                    <li class="flex flex-col md:gap-5 mb-5">
+                        <h1 class="md:text-lg text-xl mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-sm text-md font-medium">Educational Talks</h1>
+                        <h1 class="md:text-sm text-md font-medium">Guest Lectures</h1>
+                        <h1 class="md:text-sm text-md font-medium">Recruitment Drive</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 mb-5">
+                        <h1 class="md:text-lg text-xl mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-sm text-md font-medium">Mentorship</h1>
+                        <h1 class="md:text-sm text-md font-medium">Monitoring</h1>
+                        <h1 class="md:text-sm text-md font-medium">jobs</h1>
+                        <h1 class="md:text-sm text-md font-medium">Internship</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 mb-5">
+                        <h1 class="md:text-lg text-xl mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-sm text-md font-medium">Requirement Outsourcing</h1>
+                        <h1 class="md:text-sm text-md font-medium">Project Oversight</h1>
+                        <h1 class="md:text-sm text-md font-medium">Hiring Platform</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 mb-5">
+                        <h1 class="md:text-lg text-xl mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-sm text-md font-medium">About Us</h1>
+                        <h1 class="md:text-sm text-md font-medium">Careers</h1>
+                        <h1 class="md:text-sm text-md font-medium">FAQs</h1>
+                        <h1 class="md:text-sm text-md font-medium">Our App</h1>
+                        <h1 class="md:text-sm text-md font-medium">Contact Us</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 mb-5">
+                        <h1 class="md:text-lg text-xl mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center gap-4 text-center ml-[22vw] md:ml-[0]">
+                            <i class="ri-phone-line text-2xl"></i>
+                            <h1 class="md:text-md font-medium">+91-9302707264</h1>
+                        </div>
+                        <div class="flex items-center gap-4 ml-[22vw] md:ml-[0]">
+                            <i class="ri-mail-line text-2xl"></i>
+                            <h1 class="md:text-md font-medium">support@hiremi.in</h1>
+                        </div>
+                        <div>
+                            <h1 class="md:text-lg text-xl font-bold text-[#BD2930] mb-2 mt-5">Follow us</h1>
+                            <div class="md:text-2xl text-2xl flex md:gap-3 gap-3 ml-[28vw] md:ml-[0]">
+                                <i class="ri-instagram-line"></i>
+                                <i class="ri-linkedin-fill"></i>
+                                <i class="ri-youtube-line"></i>
+                                <i class="ri-whatsapp-line"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+           
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
