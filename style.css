@@ -49,9 +49,6 @@ html, body{
     .nav ul{
         display: none;
     }
-   .nav button{
-        display: none;
-    }
     .nav i{
         display: block;
     }
