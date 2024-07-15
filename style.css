@@ -18,10 +18,9 @@ html, body{
 .nav button{
     background: linear-gradient(to top, #a6252b, #ff2c36);
 }
-.buttons button:nth-child(1){
+.buttons #btn{
     background: linear-gradient(to top, #a6252b, #ff2c36);
 }
-
 .growthImage{
     width: 50vw;
     height: 100vh;

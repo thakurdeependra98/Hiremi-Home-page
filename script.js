@@ -12,12 +12,18 @@ menuIcon.addEventListener("click", function() {
   })
 })
 
+const tl = gsap.timeline()
 cross.addEventListener("click", function() {
-  gsap.to(".menu",{
+  tl.to(".menu",{
     y:"-50%",
     duration: 1,
     ease: "power2.inOut"
-  })
+  },"back"),
+  tl.to(".services",{
+    y:-450,
+    opacity:0,
+    duration:1,
+  },"back")
 })
 
 var service = document.querySelectorAll("#service, #serve")

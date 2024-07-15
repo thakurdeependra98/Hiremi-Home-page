@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main w-screen">
+        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+            <a href="/index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
+            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+                <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
+                <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
+                <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
+                <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
+            </ul>
+            <a href="/ourApp.html"><button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-line hidden text-black"></i>
+            <div class="menu absolute top-[-10%] px-4">
+                <div class="flex justify-between ">
+                    <a href="./about.html">About Us</a>
+                    <a id="serve" href="#">Services</a>
+                    <a href="./career.html">Careers</a>
+                    <a href="./contact.html">Contact Us</a>
+                    <i class="ri-close-line text-black"></i>
+                </div>
+            </div>
+        </div>
+        <div class="services md:w-[78vw] md:h-[42vh] bg-[#F7F7F7] w-[80vw] h-[30vh] opacity-0 md:top-[-50vh] top-[-60vh] drop-shadow-xl z-10 absolute flex justify-around ml-[10vw] md:rounded-3xl rounded-lg pt-10 pl-5">
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw]">
+                <h1 class="text-[#BD2930] font-black">For Individuals</h1>
+                <a href="/MentorService.html">Mentorship</a>
+                <a href="/monitorservice.html">Application Monitoring Services</a>
+                <a href="/internship.html">Job and Internship Opportunities</a>
+            </div>
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw] ">
+                <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
+                <a href="/project.html">Project Oversight</a>
+                <a href="/recruiter.html">Recruitment Outsourcing</a>
+                <a href="/hiring.html">Recruiters Hiring Platform</a>
+            </div>
+            <div class="flex flex-col gap-[2.5vh] font-medium md:text-[1.4vw] text-[2.5vw]">
+                <h1 class="text-[#BD2930] font-black">For Colleges</h1>
+                <a href="/college.html">College Partnership</a>
+            </div>
+        </div>
+        <div class="home w-screen h-[82vh] flex items-center justify-center pt-10 relative">
+            <div class="left md:w-[52vw] w-screen h-full flex justify-center flex-col md:pl-[7vw] gap-10 md:text-left text-center">
+                <div class="head leading-snug text-left">
+                    <h1 class="md:text-[4.2vw] text-[5.5vw] font-black px-10 md:px-0">Your <span class="text-[#BD2930]">Talent Partner</span> for Business Success</h1>
+                </div>
+                <div class="text md:w-[45vw] w-[100vw] text-left">
+                    <p class="text-lg font-medium px-10 md:px-0">At Hiremi, we are dedicated to driving your business success through our comprehensive range of B2B services.</p>
+                </div>
+                <div class="buttons flex gap-10">
+                    <button class="px-6 py-2 rounded-2xl text-white md:text-[1.5vw] text-[3vw] font-medium">Contact Us</button>
+                </div>
+            </div>
+            <div class="right md:w-[48vw] w-screen h-full flex items-center justify-center md:text-left relative">
+                <img class="md:h-[36vw] h-[60vw] object-cover absolute md:left-[22vw] left-[50vw]" src="./src/app.png" alt="">
+                <img class="md:h-[45vw] h-[75vw] absolute md:left-[10vw] left-[25vw]" src="./src/shadow.png" alt="">
+                <img class="md:h-[40vw] h-[65vw] absolute md:left-[-4vw] left-[8vw] top-[13vw] md:top-[2vw]" src="./src/iphone fly mockup.png" alt="">
+            </div>
+        </div>
+        <div class="verify w-screen md:h-[60vw] md:mt-20 md:my-0 my-10">
+            <h1 class="md:text-[4vw] text-[5vw] font-black text-center mb-6">What we <span class="text-[#BD2930]">offer</span></h1>
+            <div class="app w-screen md:h-[50vw] flex items-center justify-center md:flex-row-reverse flex-col-reverse">
+                <div class="steps md:w-[50vw] w-[100vw] h-full flex flex-col md:gap-14 gap-8 px-[5vw] justify-center md:mt-0 mt-20">
+                    <div class="flex gap-8 px-6 items-start">
+                        <div class="logo bg-[#BD2930] flex items-center justify-center rounded-full">
+                            <h1 class="px-4 py-2 text-white font-semibold">1</h1>
+                        </div>
+                        <div class="conatain flex flex-col gap-3">
+                            <h1 class="text-[#BD2930] font-black md:text-[1.5vw] text-[3.5vw]">Hiring Platform :</h1>
+                            <p class="md:text-[1.2vw] text-[3vw] font-medium">Access our robust hiring platform to connect with top-tier candidates efficiently and effectively.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8 px-6 items-start">
+                        <div class="logo bg-[#BD2930] flex items-center justify-center rounded-full">
+                            <h1 class="px-4 py-2 text-white font-semibold">2</h1>
+                        </div>
+                        <div class="conatain flex flex-col gap-3">
+                            <h1 class="text-[#BD2930] font-black md:text-[1.5vw] text-[3.5vw]">Project Oversight :</h1>
+                            <p class="md:text-[1.2vw] text-[3vw] font-medium">Ensure project success with our dedicated oversight and management, ensuring deadlines are met and quality standards upheld.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8 px-6 items-start">
+                        <div class="logo bg-[#BD2930] flex items-center justify-center rounded-full">
+                            <h1 class="px-4 py-2 text-white font-semibold">3</h1>
+                        </div>
+                        <div class="conatain flex flex-col gap-3">
+                            <h1 class="text-[#BD2930] font-black md:text-[1.5vw] text-[3.5vw]">Recruitment Outsourcing :</h1>
+                            <p class="md:text-[1.2vw] text-[3vw] font-medium">Streamline your hiring process with our expert recruitment services, ensuring you find the right talent efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen md:w-[50vw] w-[40vw] md:h-[54vw] text-[2.5vw] md:pl-[10vw] flex items-center relative">
+                    <img class="h-[70%] object-cover" src="./src/app.png" alt="">
+                    <img class="md:h-[50%] h-[70%] object-cover absolute md:top-[24vw] top-[30vw] md:left-[8vw] left-[0vw]" src="./src/shadow.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="frames w-screen min-h-screen">
+            <div class="frame w-screen md:h-[35vw] h-[70vw] flex items-center justify-between md:px-[10vw] px-[5vw]">
+                <div class="w-[40vw] h-[50vw] flex justify-start items-center">
+                    <img class="md:h-[25vw] h-[35vw] md:w-[22vw] w-[30vw] object-cover rounded-[0.8vw]" src="./src/youth marketinng.jpg" alt="">
+                </div>
+                <div class="w-[60vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
+                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Hiring</span> Platform</h1>
+                    <div>
+                        <ul class="flex flex-col gap-[2vw] pl-[2vw]" style = "list-style-type:disc; ">
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidate Pool:</span> Connect with genuine and qualified individuals through our curated candidate pool, verified by Hiremi.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Tailored Matching:</span> Advanced algorithms match your job requirements with the skills and profiles of our verified candidates, saving you time and effort.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">TEfficient Recruitment Process:</span> Simplify your hiring process with our user-friendly platform, facilitating easy job postings, candidate screening, and interview scheduling.</li>
+                        </ul>
+                    </div>
+                    <button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+            <div class="frame w-screen md:h-[35vw] h-[70vw] flex flex-row-reverse items-center justify-between md:px-[10vw] px-[5vw]">
+                <div class="w-[40vw] h-[50vw] flex justify-end items-center">
+                    <img class="md:h-[25vw] h-[35vw] md:w-[22vw] w-[30vw] object-cover rounded-[0.8vw]" src="./src/strategy statatics.jpg" alt="">
+                </div>
+                <div class="w-[60vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
+                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Project</span> Oversight</h1>
+                    <div>
+                        <ul class="flex flex-col gap-[2vw] pl-[2vw]" style = "list-style-type:disc;">
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Full Project Management::</span> Let us take full responsibility for managing, executing, and delivering your projects within specified timelines.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Expert Team:</span> Our dedicated team ensures seamless project completion, allowing you to focus on your core business operations.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Innovative Solutions:</span> We foster innovation and continuously improve project outcomes to meet your business goals.</li>
+                        </ul>
+                    </div>
+                    <button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+            <div class="frame w-screen md:h-[35vw] h-[70vw] flex items-center justify-between md:px-[10vw] px-[5vw]">
+                <div class="w-[40vw] h-[50vw] flex justify-start items-center">
+                    <img class="h-[25vw] w-[22vw] object-cover object-left rounded-[0.8vw]" src="./src/business team.jpg" alt="">
+                </div>
+                <div class="w-[60vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
+                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Recruitment</span>  Outsourcing</h1>
+                    <div>
+                        <ul class="flex flex-col gap-[2vw] pl-[2vw]" style = "list-style-type:disc;">
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">End-to-End Hiring:</span>  Streamline your hiring process with our complete recruitment solutions, from sourcing and screening candidates to onboarding.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidates:</span> We present only authentic and thoroughly vetted candidates to ensure you hire the best talent.</li>
+                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Diverse Talent Pool:</span> Access a wide range of skilled candidates from over 3,800 colleges and universities across India.</li>
+                        </ul>
+                    </div>
+                    <button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="app w-screen md:h-[30vw] h-auto md:my-5 my-10 bg-black">
+            <div class="section w-screen md:h-[45vw] h-full flex flex-row-reverse">
+                <div class="image w-[45vw] md:h-full relative">
+                    <img class="md:h-[30vw] md:w-[30vw] object-cover w-[60vw] md:top-[0vh] top-[10vh] left-[0vw] md:left-[10vw] absolute z-0" src="./src/call center.gif" alt="">
+                </div>
+                <div class="path w-[55vw] md:h-[30vw] h-[45vh] flex flex-col justify-center md:gap-[2vw] gap-[3vw] md:pl-[6vw] pl-[5vw] text-white">
+                    <h3 class="md:text-[1.8vw] text-[2.5vw] font-medium">How to Get Started</h3>
+                    <h1 class="md:text-[2.8vw] text-[2.8vw] font-black leading-tight md:mb-8 mb-4"> <span class="text-[#BD2930]">Partner with Us:</span> Discover how our services can drive your business forward.</h1>
+                    <button class="md:w-[15vw] w-[20vw] md:text-[1.8vw] text-[2.8vw] bg-[#BD2930] px-2 py-1 rounded-2xl">Contact us</button>
+                    <h1 class="md:text-[1.5vw] text-[2.8vw] flex gap-3 items-center" ><i class="ri-mail-line text-2xl font-thin"></i> support@hiremi.com</h1>
+                </div>
+            </div>
+        </div>
+        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
+            <div class="download md:w-[28vw] w-screen flex flex-col items-center md:items-start justify-center text-center gap-4 pt-5 md:pt-0 md:text-left">
+                <div class="md:w-[28vw] w-screen md:pl-16 flex flex-col items-center md:items-start">
+                    <img class="md:h-[7vw] h-[15vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="md:w-[22vw] w-[70vw] md:text-[1vw] text-[3vw] font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+                </div>
+                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 md:pl-16">
+                    <button class="border-2 border-black md:px-10 md:py-2 md:text-[1vw] text-[4vw] px-6 py-1 rounded-full">Download Now</button>
+                    <div class=" md:text-[2vw] text-[5vw]">
+                        <i class="ri-apple-fill ml-4"></i>
+                        <i class="ri-google-play-fill ml-2"></i>
+                    </div>
+                </div>
+                <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
+            </div>
+            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-4 ">
+                <ul class="w-full flex justify-between ">
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">College Partnership</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Mentorship</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Monitoring</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">jobs</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Internship</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Project Oversight</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Outsourcing</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Hiring Platform</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">About Us</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Careers</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Our App</h1>
+                        <h1 class="md:text-[1.1vw] text-[2.5vw] font-medium">Contact Us</h1>
+                    </li>
+                </ul>
+                <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
+                    <div>
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-2">
+                            <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
+                        </div>
+                        <div class="flex items-center md:gap-4 gap-[5vw]">
+                            <i class="ri-mail-line md:text-[1.7vw] text-[3.5vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">support@hiremi.in</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
+                        <div class="md:text-[1.7vw] text-[3.5vw] flex md:gap-3 gap-[2vw] md:ml-[0]">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-linkedin-fill"></i>
+                            <i class="ri-youtube-line"></i>
+                            <i class="ri-whatsapp-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
