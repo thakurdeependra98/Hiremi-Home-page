@@ -6,7 +6,7 @@ var cross = document.querySelector(".menu i")
 
 menuIcon.addEventListener("click", function() {
   gsap.to(".menu",{
-    y:65,
+    top:0,
     duration: 1,
     ease: "power2.inOut"
   })
@@ -15,12 +15,12 @@ menuIcon.addEventListener("click", function() {
 const tl = gsap.timeline()
 cross.addEventListener("click", function() {
   tl.to(".menu",{
-    y:"-50%",
+    top:"-20%",
     duration: 1,
     ease: "power2.inOut"
   },"back"),
   tl.to(".services",{
-    y:-450,
+    top:"-50%",
     opacity:0,
     duration:1,
   },"back")
@@ -36,7 +36,7 @@ service.forEach(function(elem){
   elem.addEventListener("click", function() {
     if(flag == 0){
       gsap.to(".services",{
-        y:450,
+        top:"16%",
         opacity:1,
         duration:1,
         ease: "power2.inOut"
@@ -44,7 +44,7 @@ service.forEach(function(elem){
       flag = 1;
     }else{
       gsap.to(".services",{
-        y:-450,
+        top:"-50%",
         opacity:0,
         duration:1,
       })
