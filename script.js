@@ -20,7 +20,7 @@ cross.addEventListener("click", function() {
     ease: "power2.inOut"
   },"back"),
   tl.to(".services",{
-    top:"-50%",
+    top:"-50vw",
     opacity:0,
     duration:1,
   },"back")
@@ -36,7 +36,7 @@ service.forEach(function(elem){
   elem.addEventListener("click", function() {
     if(flag == 0){
       gsap.to(".services",{
-        top:"16%",
+        top:"14vw",
         opacity:1,
         duration:1,
         ease: "power2.inOut"
@@ -44,7 +44,7 @@ service.forEach(function(elem){
       flag = 1;
     }else{
       gsap.to(".services",{
-        top:"-50%",
+        top:"-50vw",
         opacity:0,
         duration:1,
       })
