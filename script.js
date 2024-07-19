@@ -53,3 +53,12 @@ service.forEach(function(elem){
   
   })
 })
+
+var help = document.querySelector(".help")
+document.querySelectorAll("#contact").forEach(function(e){
+  var click = e.childNodes[3]
+
+  e.addEventListener("click", function(){
+    help.style.display= "block"
+  })
+})
