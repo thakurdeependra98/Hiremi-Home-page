@@ -54,11 +54,16 @@ service.forEach(function(elem){
   })
 })
 
-var help = document.querySelector(".help")
-document.querySelectorAll("#contact").forEach(function(e){
-  var click = e.childNodes[3]
-
-  e.addEventListener("click", function(){
-    help.style.display= "block"
-  })
+gsap.from(".steps",{
+  top:"45vw",
+  duration:8,
+  stagger:10,
+  scrollTrigger:{
+    trigger: "#process",
+    start:"top 0%",
+    end: "top -400%",
+    scrub: 1,
+    pin: true,
+    markers: true,
+  }
 })
