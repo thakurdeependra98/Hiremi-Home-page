@@ -88,7 +88,7 @@ html, body{
         background-color: #fff;
         left: 0;
         padding: 1vw 5vw;
-        background: linear-gradient(to top, #a6252b, #ff2c36);
+        background-color: #F2F2F2;
 
     }
     .menu a{
@@ -99,10 +99,6 @@ html, body{
     }
     .home{
         flex-direction: column-reverse;
-    }
-    .buttons{
-        flex-direction: column;
-        gap: 20px;
     }
     .career{
         justify-content: center;

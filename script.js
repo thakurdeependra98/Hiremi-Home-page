@@ -64,6 +64,6 @@ gsap.from(".steps",{
     end: "top -400%",
     scrub: 1,
     pin: true,
-    markers: true,
+    // markers: true,
   }
 })
