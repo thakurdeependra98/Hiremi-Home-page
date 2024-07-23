@@ -71,8 +71,9 @@ html, body{
 @media (max-width: 769px) {
     .nav{
         width: 100vw;
-        /* background-color: blue; */
-        padding: 2vw 5vw;
+        background-color: #F2F2F2;
+        border-bottom-right-radius: 5vw;
+        border-bottom-left-radius: 5vw;
     }
     .nav img{
         height: 40px;
@@ -84,18 +85,22 @@ html, body{
         display: block;
     }
     .menu{
-        width: 100%;
-        background-color: #fff;
-        left: 0;
-        padding: 1vw 5vw;
-        background-color: #F2F2F2;
-
+        width: 32vw;
+        height: 50vw;
+        background-color: #c71414;
+        right: 0;
+        padding: 4vw 5vw;
+        text-align: right;
+        border-bottom-left-radius: 5vw;
     }
     .menu a{
+        text-align: left;
         text-decoration: none;
-        color: #fff;
         font-size: 3vw;
         font-weight: 500;
+    }
+    .menu i{
+        font-size: 5vw;
     }
     .home{
         flex-direction: column-reverse;
