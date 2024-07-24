@@ -15,6 +15,7 @@ html, body{
     overflow-x: hidden;
     /* scrollbar-width: none; */
 }
+
 .nav ul a:hover{
     padding-bottom: 3px;
     border-bottom: 2px solid #BD2930;
@@ -85,13 +86,12 @@ html, body{
         display: block;
     }
     .menu{
-        width: 32vw;
+        width: 25vw;
         height: 50vw;
-        background-color: #c71414;
         right: 0;
         padding: 4vw 5vw;
         text-align: right;
-        border-bottom-left-radius: 5vw;
+        border-bottom-left-radius: 2vw;
     }
     .menu a{
         text-align: left;

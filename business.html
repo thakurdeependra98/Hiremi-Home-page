@@ -13,67 +13,68 @@
 </head>
 <body>
     <div class="main w-screen">
-        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+        <div class="nav w-screen md:h-[10vw] h-[13vw] flex items-center justify-between md:px-[5vw] px-[10vw] py-6 ">
             <a href="./index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
-            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+            <ul class="flex gap-[6vw] text-[1.3vw] font-medium ">
                 <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
                 <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
                 <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
                 <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
             </ul>
-            <a href="./ourApp.html"><button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
-            <i class="menubar ri-menu-line hidden text-black"></i>
-            <div class="menu absolute top-[-10%] px-4">
-                <div class="flex justify-between ">
+            <a href="./ourApp.html"><button class="px-[2.5vw] md:block hidden py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-2-line hidden text-black text-[5vw]"></i>
+            <div class="menu absolute right-[-30vw] top-[0vw] px-4 bg-[#F7F7F7] z-50">
+                <div class="flex flex-col justify-between gap-[2vw] ">
+                    <i class="ri-close-line text-black"></i>
                     <a href="./about.html">About Us</a>
-                    <a id="serve" href="#">Services</a>
+                    <a id="serve" class="flex flex-row items-center" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
                     <a href="./career.html">Careers</a>
                     <a href="./contact.html">Contact Us</a>
-                    <i class="ri-close-line text-black"></i>
+                    <a href="./ourApp.html">Our app</a>
                 </div>
             </div>
         </div>
-        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[80vw] h-[40vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[60vw] h-[30vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Individuals</h1>
                 <a href="./MentorService.html">Mentorship</a>
                 <a href="./internship.html">Job and Internship Opportunities</a>
                 <a href="./monitorservice.html">Application Monitoring Services</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw] ">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw] ">
                 <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
                 <a href="./project.html">Project Oversight</a>
                 <a href="./recruiter.html">Recruitment Outsourcing</a>
                 <a href="./hiring.html">Recruiters Hiring Platform</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Colleges</h1>
                 <a href="./college.html">College Partnership</a>
             </div>
         </div>
-        <div class="home w-screen md:h-[40vw] h-[150vw] flex items-center justify-center pt-10 relative">
-            <div class="left md:w-[52vw] w-screen md:h-[40vw] h-[110vw] flex md:items-start items-center justify-center flex-col md:pl-[7vw] gap-[3vw] md:text-left text-center">
-                <div class="head leading-snug md:text-left">
-                    <h1 class="md:text-[4.2vw] text-[5.5vw] font-black px-10 md:px-0">Your <span class="text-[#BD2930]">Talent Partner</span> for Business Success</h1>
+        <div class="home w-screen md:h-[40vw] h-[170vw] flex items-center justify-center pt-10 relative">
+            <div class="left md:w-[52vw] w-screen md:h-[40vw] h-[140vw] flex items-start justify-center flex-col md:pl-[7vw] md:gap-[3vw] gap-[5vw] md:text-left text-center">
+                <div class="head leading-snug text-left">
+                    <h1 class="md:text-[4.2vw] text-[10vw] font-black px-[5vw] md:px-0">Your <span class="text-[#BD2930]">Talent Partner</span> for Business Success</h1>
                 </div>
-                <div class="text md:w-[45vw] w-[100vw] md:text-left text-center">
-                    <p class="md:text-[1.3vw] text-[3vw] font-medium px-10 md:px-0">At Hiremi, we are dedicated to driving your business success through our comprehensive range of B2B services.</p>
+                <div class="text md:w-[45vw] w-[100vw] text-left">
+                    <p class="md:text-[1.3vw] text-[4vw] font-medium px-[5vw] md:px-0">At Hiremi, we are dedicated to driving your business success through our comprehensive range of B2B services.</p>
                 </div>
-                <div class="buttons flex gap-10">
+                <div class="buttons gap-10 md:px-[0vw] px-[5vw]">
                     <a href="mailto:careers@hiremi.in"><button id="btn" class="px-6 py-2 rounded-2xl text-white md:text-[1.5vw] text-[3vw] font-medium">Contact Us</button></a>
                 </div>
             </div>
-            <div class="right md:w-[48vw] w-screen h-full flex items-center justify-center md:text-left relative">
+            <div class="right md:w-[48vw] w-screen h-full flex items-center justify-center md:text-left relative z-10">
                 <img class="md:h-[36vw] h-[60vw] object-cover absolute md:left-[22vw] left-[50vw]" src="./src/app.png" alt="">
-                <img class="md:h-[35vw] h-[50vw] absolute md:left-[15vw] left-[40vw] md:top-[5vw] top-[23vw]" src="./src/shadow.png" alt="">
-                <img class="md:h-[40vw] h-[65vw] absolute md:left-[-4vw] left-[8vw] top-[13vw] md:top-[2vw]" src="./src/iphone fly mockup.png" alt="">
+                <img class="md:h-[35vw] h-[50vw] absolute md:left-[15vw] left-[40vw] md:top-[5vw] top-[28vw]" src="./src/shadow.png" alt="">
+                <img class="md:h-[40vw] h-[65vw] absolute md:left-[-4vw] left-[8vw] top-[18vw] md:top-[2vw]" src="./src/iphone fly mockup.png" alt="">
             </div>
         </div>
-        <div class="verify w-screen md:h-[60vw] md:mt-20 md:my-0 my-10 relative">
+        <div class="verify w-screen md:h-[60vw] h-[200vw] md:mt-20 md:my-0 my-10 relative">
             <img class="absolute md:h-[16vw] h-[15vw] top-[-2vw] right-[0vw]" src="./src/Vector.png" alt="">
-            <h1 class="md:text-[4vw] text-[5vw] font-black text-center mb-6">What we <span class="text-[#BD2930]">offer</span></h1>
+            <h1 class="md:text-[4vw] text-[10vw] font-black md:text-center mb-[5vw] md:pt-[0vw] pt-[100vw] px-[10vw]">What we <span class="text-[#BD2930]">offer</span></h1>
             <div class="app w-screen md:h-[50vw] flex items-center justify-center md:flex-row-reverse flex-col-reverse">
-                <div class="steps md:w-[50vw] w-[100vw] h-full flex flex-col md:gap-14 gap-8 px-[5vw] justify-center md:mt-0 mt-20">
+                <div class="steps md:w-[50vw] w-[100vw] h-full flex flex-col md:gap-14 gap-8 px-[5vw] justify-center md:mt-0  ">
                     <div class="flex md:gap-[2vw] gap-[4vw] px-[2vw] items-start">
                         <div class="logo bg-[#BD2930] flex items-center justify-center rounded-full">
                             <h1 class="px-4 py-2 text-white font-semibold">1</h1>
@@ -102,63 +103,63 @@
                         </div>
                     </div>
                 </div>
-                <div class="screen md:w-[50vw] w-screen md:h-[54vw] h-[50vw] text-[2.5vw] md:pl-[5vw] flex items-center justify-center md:justify-start relative">
-                    <img class="h-[90%] object-cover absolute z-10" src="./src/offers mobile.png" alt="">
-                    <img class="md:h-[65%] h-[70%] object-cover absolute md:top-[12vw] z-0 top-[10vw] md:left-[5vw] left-[28vw]" src="./src/rings.png" alt="">
+                <div class="screen md:w-[50vw] w-screen md:h-[54vw] text-[2.5vw] md:pl-[5vw] flex items-center justify-center md:justify-start">
+                    <img class="md:h-[80%] h-[50%] object-cover absolute z-10 top-[-7vw] md:top-[12vw] " src="./src/offers mobile.png" alt="">
+                    <img class="md:h-[65%] h-[35%] object-cover absolute md:top-[18vw] z-0 top-[10vw] md:left-[5vw] left-[7vw]" src="./src/rings.png" alt="">
                 </div>
             </div>
         </div>
         <div class="frames w-screen min-h-screen relative">
             <img class="absolute md:h-[16vw] h-[15vw] top-[-6vw] right-[0vw]" src="./src/Vector.png" alt="">
-            <div class="frame w-screen md:h-[50vw] h-[80vw] flex items-center justify-between md:px-[10vw] px-[5vw]">
-                <div class="w-[40vw] h-[50vw] flex justify-start items-center">
-                    <img class="md:h-[35vw] h-[35vw] md:w-[30vw] w-[30vw] object-cover rounded-[0.8vw]" src="./src/youth marketinng.jpg" alt="">
+            <div class="frame w-screen md:h-[50vw]  flex flex-col md:flex-row items-center justify-between gap-[5vw] md:px-[10vw] px-[5vw]">
+                <div class="md:w-[30vw] md:h-[35vw] w-[70vw] h-[70vw] rotate-[-20deg] flex md:border-0 border-2 border-black rounded-[2.5vw]  items-center">
+                    <img class="md:h-[35vw] h-[70vw] md:w-[30vw] w-[70vw] rotate-[20deg] object-cover md:rounded-[0.8vw] rounded-[2.5vw]" src="./src/youth marketinng.jpg" alt="">
                 </div>
-                <div class="w-[50vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
-                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Hiring</span> Platform</h1>
+                <div class="md:w-[50vw] w-screen md:h-[50vw] h-[100vw] flex flex-col justify-center items-start gap-[2vw] md:px-[0vw] px-[10vw]">
+                    <h1 class="md:text-[3vw] text-[9vw] font-black"><span class="text-[#BD2930]">Hiring</span> Platform</h1>
                     <div>
                         <ul class="flex flex-col gap-[4vw] pl-[2vw]" style = "list-style-type:disc; ">
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidate Pool:</span> Connect with genuine and qualified individuals through our curated candidate pool, verified by Hiremi.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Tailored Matching:</span> Advanced algorithms match your job requirements with the skills and profiles of our verified candidates, saving you time and effort.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Efficient Recruitment Process:</span> Simplify your hiring process with our user-friendly platform, facilitating easy job postings, candidate screening, and interview scheduling.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidate Pool:</span> Connect with genuine and qualified individuals through our curated candidate pool, verified by Hiremi.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Tailored Matching:</span> Advanced algorithms match your job requirements with the skills and profiles of our verified candidates, saving you time and effort.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Efficient Recruitment Process:</span> Simplify your hiring process with our user-friendly platform, facilitating easy job postings, candidate screening, and interview scheduling.</li>
                         </ul>
                     </div>
-                  <a href="./hiring.html"><button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
+                  <a href="./hiring.html"><button class="md:text-[1.3vw] text-[3vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
                 </div>
             </div>
-            <div class="frame w-screen md:h-[50vw] h-[80vw] flex flex-row-reverse items-center justify-between md:px-[10vw] px-[5vw] relative">
+            <div class="frame w-screen md:h-[50vw]  flex flex-col md:flex-row-reverse items-center justify-between gap-[5vw] md:px-[10vw] px-[5vw] relative">
             <img class="absolute md:h-[16vw] h-[15vw] top-[-6vw] left-[0vw]" src="./src/Vector.png" alt="">
             <img class="h-[40vw] absolute md:top-[-20vw] top-[-3vw] z-0 right-[-2vw]" src="./src/Design element aboutus.png" alt="">
-                <div class="w-[40vw] h-[50vw] flex justify-end items-center">
-                    <img class="md:h-[35vw] h-[35vw] md:w-[30vw] w-[30vw] object-cover rounded-[0.8vw]" src="./src/strategy statatics.jpg" alt="">
+                <div class="md:w-[30vw] md:h-[35vw] w-[70vw] h-[70vw] rotate-[-20deg] flex md:border-0 border-2 border-black rounded-[2.5vw] justify-end items-center">
+                    <img class="md:h-[35vw] h-[70vw] md:w-[30vw] w-[70vw] rotate-[20deg] object-cover md:rounded-[0.8vw] rounded-[2.5vw]" src="./src/strategy statatics.jpg" alt="">
                 </div>
-                <div class="w-[50vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
-                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Project</span> Oversight</h1>
+                <div class="md:w-[50vw] w-screen md:h-[50vw] h-[100vw] flex flex-col justify-center items-start gap-[2vw] md:px-[0vw] px-[10vw]">
+                    <h1 class="md:text-[3vw] text-[9vw] font-black"><span class="text-[#BD2930]">Project</span> Oversight</h1>
                     <div>
                         <ul class="flex flex-col gap-[4vw] pl-[2vw]" style = "list-style-type:disc;">
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Full Project Management::</span> Let us take full responsibility for managing, executing, and delivering your projects within specified timelines.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Expert Team:</span> Our dedicated team ensures seamless project completion, allowing you to focus on your core business operations.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Innovative Solutions:</span> We foster innovation and continuously improve project outcomes to meet your business goals.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Full Project Management::</span> Let us take full responsibility for managing, executing, and delivering your projects within specified timelines.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Expert Team:</span> Our dedicated team ensures seamless project completion, allowing you to focus on your core business operations.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Innovative Solutions:</span> We foster innovation and continuously improve project outcomes to meet your business goals.</li>
                         </ul>
                     </div>
-                    <a href="./project.html"><button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
+                    <a href="./project.html"><button class="md:text-[1.3vw] text-[3vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
                 </div>
             </div>
-            <div class="frame w-screen md:h-[50vw] h-[80vw] flex items-center justify-between md:px-[10vw] px-[5vw] relative">
+            <div class="frame w-screen md:h-[50vw]  flex flex-col md:flex-row items-center justify-between gap-[5vw] md:px-[10vw] px-[5vw] relative">
             <img class="absolute md:h-[16vw] h-[15vw] top-[-10vw] left-[0vw]" src="./src/Vector.png" alt="">
-                <div class="w-[40vw] h-[50vw] flex justify-start items-center">
-                    <img class="md:h-[35vw] h-[35vw] md:w-[30vw] w-[30vw] object-cover object-left rounded-[0.8vw]" src="./src/business team.jpg" alt="">
+                <div class="md:w-[30vw] md:h-[35vw] w-[70vw] h-[70vw] rotate-[-20deg] flex md:border-0 border-2 border-black rounded-[2.5vw]  items-center">
+                    <img class="md:h-[35vw] h-[70vw] md:w-[30vw] w-[70vw] rotate-[20deg] object-cover object-left md:rounded-[0.8vw] rounded-[2.5vw]" src="./src/business team.jpg" alt="">
                 </div>
-                <div class="w-[50vw] h-[50vw] flex flex-col justify-center items-start gap-[2vw]">
-                    <h1 class="md:text-[3vw] text-[5vw] font-black"><span class="text-[#BD2930]">Recruitment</span>  Outsourcing</h1>
+                <div class="md:w-[50vw] w-screen md:h-[50vw] h-[100vw] flex flex-col justify-center items-start gap-[2vw] md:px-[0vw] px-[10vw]">
+                    <h1 class="md:text-[3vw] text-[9vw] font-black"><span class="text-[#BD2930]">Recruitment</span>  Outsourcing</h1>
                     <div>
                         <ul class="flex flex-col gap-[4vw] pl-[2vw]" style = "list-style-type:disc;">
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">End-to-End Hiring:</span>  Streamline your hiring process with our complete recruitment solutions, from sourcing and screening candidates to onboarding.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidates:</span> We present only authentic and thoroughly vetted candidates to ensure you hire the best talent.</li>
-                            <li class="md:text-[1.3vw] text-[2.6vw] font-semibold"><span class="text-[#BD2930] font-black">Diverse Talent Pool:</span> Access a wide range of skilled candidates from over 3,800 colleges and universities across India.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">End-to-End Hiring:</span>  Streamline your hiring process with our complete recruitment solutions, from sourcing and screening candidates to onboarding.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Verified Candidates:</span> We present only authentic and thoroughly vetted candidates to ensure you hire the best talent.</li>
+                            <li class="md:text-[1.3vw] text-[3vw] font-semibold"><span class="text-[#BD2930] font-black">Diverse Talent Pool:</span> Access a wide range of skilled candidates from over 3,800 colleges and universities across India.</li>
                         </ul>
                     </div>
-                    <a href="./recruiter.html"><button class="md:text-[1.3vw] text-[2.7vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
+                    <a href="./recruiter.html"><button class="md:text-[1.3vw] text-[3vw] text-[#BD2930] font-black pl-[2vw]">Know More <i class="ri-arrow-right-line"></i></button></a>
                 </div>
             </div>
         </div>
@@ -174,62 +175,62 @@
                 </div>
             </div>
         </div>
-        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
-            <div class="download md:w-[28vw] w-screen flex flex-col items-center md:items-start justify-center text-center gap-4 pt-5 md:pt-0 md:text-left">
-                <div class="md:w-[28vw] w-screen md:pl-16 flex flex-col items-center md:items-start">
-                    <img class="md:h-[7vw] h-[15vw] md:pl-[0]" src="./src/main.png" alt="">
-                    <p class="md:w-[22vw] w-[70vw] md:text-[1vw] text-[3vw] font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-row items-start justify-between px-[5vw]">
+            <div class="download md:w-[28vw] w-[15vw] flex flex-col items-start md:gap-4 gap-[2vw] md:text-left">
+                <div class="md:w-[28vw] md:pl-[0vw] flex flex-col items-start">
+                    <img class="h-[7vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="md:w-[22vw] w-[17vw] md:text-[1vw] text-[1.5vw] font-semibold text-left">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
                 </div>
-                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 md:pl-[5vw]">
-                    <button class="border-2 border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[4vw] px-6 py-1 rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
-                    <div class=" md:text-[2vw] text-[5vw]">
-                        <i class="ri-apple-fill ml-[1vw]"></i>
+                <div class="md:w-[28vw] w-[20vw] md:divide-x-2 divide-x divide-black flex md:gap-5 gap-[1vw] md:py-4 py-1 md:pl-[0vw] pl-[0vw]">
+                    <button class="md:border-2 border border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[1.5vw] px-[1.5vw] py-[0.5vw] rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
+                    <div class="md:text-[2vw] text-[2vw]">
+                        <i class="ri-apple-fill ml-[0.5vw]"></i>
                         <i class="ri-google-play-fill ml-[0.5vw]"></i>
                     </div>
                 </div>
-                <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
+                <p class="w-[20vw] md:text-[1vw] text-[1.5vw] ">&copy;2021 All Rights Rsserved</p>
             </div>
-            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-4 ">
+            <div class="about md:w-[72vw] w-[85vw] h-full md:text-left flex flex-row md:gap-[4vw] gap-[3vw] pl-[4vw]">
                 <ul class="w-full flex justify-between ">
                     <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./career.html">Jobs</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./internship.html">Internship</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./career.html">Jobs</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./internship.html">Internship</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Company</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./about.html">About Us</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./business.html">Business</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./about.html">About Us</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./business.html">Business</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
                     </li>
                 </ul>
-                <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
+                <div class="flex flex-col justify-start md:gap-5 gap-[3vw] mb-5 ">
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
-                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-2">
-                            <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center md:gap-4 text-center gap-[2vw] md:mb-0 mb-[1.5vw]">
+                            <i class="ri-phone-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">+91-9302707264</h1>
                         </div>
-                        <div class="flex items-center md:gap-4 gap-[5vw]">
-                            <i class="ri-mail-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">support@hiremi.in</h1>
+                        <div class="flex items-center md:gap-4 gap-[2vw]">
+                            <i class="ri-mail-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">support@hiremi.in</h1>
                         </div>
                     </div>
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
                         <div class="md:text-[1.7vw] text-[3.5vw] flex md:gap-3 gap-[2vw] md:ml-[0]">
                             <a href="https://www.instagram.com/hiremi.in/
                             "><img class="md:h-[1.5vw] h-[3vw]" src="./src/instagram.png" alt=""></a>

@@ -13,143 +13,144 @@
 </head>
 <body>
     <div class="main w-screen">
-        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+        <div class="nav w-screen md:h-[10vw] h-[13vw] flex items-center justify-between md:px-[5vw] px-[10vw] py-6">
             <a href="./index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
-            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+            <ul class="flex gap-[6vw] text-[1.3vw] font-medium ">
                 <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
                 <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
                 <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
                 <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
             </ul>
-            <a href="./ourApp.html"><button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
-            <i class="menubar ri-menu-line hidden text-black"></i>
-            <div class="menu absolute top-[-10%] px-4">
-                <div class="flex justify-between ">
+            <a href="./ourApp.html"><button class="px-[2.5vw] md:block hidden py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-2-line hidden text-black text-[5vw]"></i>
+            <div class="menu absolute right-[-30vw] top-[0vw] px-4 bg-[#F7F7F7]">
+                <div class="flex flex-col justify-between gap-[2vw] ">
+                    <i class="ri-close-line text-black"></i>
                     <a href="./about.html">About Us</a>
-                    <a id="serve" href="#">Services</a>
+                    <a id="serve" class="flex flex-row items-center" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
                     <a href="./career.html">Careers</a>
                     <a href="./contact.html">Contact Us</a>
-                    <i class="ri-close-line text-black"></i>
+                    <a href="./ourApp.html">Our app</a>
                 </div>
             </div>
         </div>
-        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[80vw] h-[40vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[60vw] h-[30vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Individuals</h1>
                 <a href="./MentorService.html">Mentorship</a>
                 <a href="./internship.html">Job and Internship Opportunities</a>
                 <a href="./monitorservice.html">Application Monitoring Services</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw] ">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw] ">
                 <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
                 <a href="./project.html">Project Oversight</a>
                 <a href="./recruiter.html">Recruitment Outsourcing</a>
                 <a href="./hiring.html">Recruiters Hiring Platform</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Colleges</h1>
                 <a href="./college.html">College Partnership</a>
             </div>
         </div>
-        <div class="app w-screen md:h-[50vw] h-[80vw] ">
-            <div class="section w-screen md:h-[50vw] h-[80vw] flex flex-row-reverse">
-                <div class="image w-[38vw] md:h-full relative">
-                    <img class="md:h-[35vw] md:w-[22vw] object-cover h-[55vw] md:top-[2vw] top-[10vw] left-[2vw] md:left-[6vw] absolute" src="./src/app.png" alt="">
-                    <img class="md:h-[25vw] md:w-[20vw] object-cover h-[48vw] md:top-[17vw] top-[25vw] left-[0vw] md:left-[6vw] absolute" src="./src/shadow.png" alt="">
+        <div class="app w-screen md:h-[50vw] ">
+            <div class="section w-screen md:h-[50vw] flex md:flex-row-reverse flex-col">
+                <div class="image md:w-[40vw] w-screen md:h-full h-[65vw] relative flex flex-col items-center justify-center">
+                    <img class="md:h-[35vw] md:w-[22vw] object-cover h-[55vw] md:top-[2vw]  md:left-[6vw] md:absolute" src="./src/app.png" alt="">
+                    <img class="md:h-[25vw] md:w-[20vw] object-cover h-[55vw] md:top-[17vw] top-[15vw] left-[22vw] md:left-[6vw] absolute" src="./src/shadow.png" alt="">
                 </div>
-                <div class="path w-[62vw] md:h-[40vw] h-[80vw] flex flex-col justify-center md:pl-[10vw] pl-[5vw]">
-                    <h3 class="md:text-[2.5vw] text-[3.5vw] font-semibold md:mb-[2vw] mb-2 leading-normal text-[#BD2930]">We are hiring</h3>
-                    <h1 class="md:text-[4vw] text-[5vw] font-black md:mb-[2vw] mb-2">Be part of <span class="text-[#BD2930]">our journey !</span></h1>
-                    <p class="md:text-[1.6vw] leading-snug text-[2.8vw] font-medium md:mb-[2vw] mb-2">We’re looking for passionate people to join us on our mission. We prioritize simple structures, clear communication, and taking full ownership and responsibility.</p>
+                <div class="path md:w-[60vw] w-screen md:h-[40vw] h-[80vw] flex flex-col justify-center md:pl-[10vw] pl-[5vw] md:px-[0] px-[10vw]">
+                    <h3 class="md:text-[2.5vw] text-[5vw] font-semibold md:mb-[2vw] mb-[1vw] leading-normal text-[#BD2930]">We are hiring</h3>
+                    <h1 class="md:text-[4vw] text-[10vw] font-black md:mb-[2vw] mb-[1vw]">Be part of <span class="text-[#BD2930]">our journey !</span></h1>
+                    <p class="md:text-[1.6vw] leading-snug text-[4vw] font-medium md:mb-[2vw] mb-[1vw]">We’re looking for passionate people to join us on our mission. We prioritize simple structures, clear communication, and taking full ownership and responsibility.</p>
                 </div>
             </div>
         </div>
-        <div class="app w-screen md:h-[40vw] h-[80vw] bg-black">
-            <div class="section w-screen md:h-[40vw] h-[80vw] flex overflow-hidden">
+        <div class="app w-screen md:h-[40vw] h-[35vw] bg-black">
+            <div class="section w-screen md:h-[35vw] h-[35vw] flex overflow-hidden">
                 <div class="image w-[38vw] md:h-full relative">
-                    <img class="md:h-[40vw] md:w-[32vw] object-cover h-[45vw] md:top-[5vw] top-[15vw] left-[2vw] md:left-[2vw] absolute" src="./src/career group img.png" alt="">
+                    <img class="md:h-[40vw] md:w-[32vw] object-cover h-[40vw] md:top-[5vw] top-[0vw] left-[2vw] md:left-[2vw] absolute" src="./src/career group img.png" alt="">
                 </div>
-                <div class="path w-[62vw] md:h-[40vw] h-[80vw] flex flex-col justify-center md:px-[3vw] px-[3vw]">
-                    <h3 class="md:text-[2vw] text-[3.5vw] font-medium md:mb-[2vw] mb-2 leading-normal text-white">Careers at Hiremi</h3>
-                    <h1 class="md:text-[4vw] text-[5vw] font-black md:mb-[2vw] mb-2 text-white">Your Journey <span class="text-[#BD2930]">Begins Here !</span></h1>
-                    <p class="md:text-[1.4vw] leading-snug text-[2.5vw] font-medium md:mb-[2vw] text-white mb-2">Join Hiremi for a career beyond boundaries at Hiremi, we invite you to embark on a journey where your career breaks boundaries and explores infinite possibilities. More than just jobs, we offer a dynamic platform to shape your professional destiny and unleash your full potential.</p>
+                <div class="path w-[62vw] md:h-[40vw] h-[35vw] flex flex-col justify-center md:px-[3vw] px-[3vw]">
+                    <h3 class="md:text-[2vw] text-[2vw] font-medium md:mb-[2vw] mb-[1vw] leading-normal text-white">Careers at Hiremi</h3>
+                    <h1 class="md:text-[4vw] text-[3.5vw] font-black md:mb-[2vw] mb-[1vw] text-white">Your Journey <span class="text-[#BD2930]">Begins Here !</span></h1>
+                    <p class="md:text-[1.4vw] leading-snug text-[1.6vw] md:font-medium md:mb-[2vw] text-white mb-[1vw]">Join Hiremi for a career beyond boundaries at Hiremi, we invite you to embark on a journey where your career breaks boundaries and explores infinite possibilities. More than just jobs, we offer a dynamic platform to shape your professional destiny and unleash your full potential.</p>
                     <div class="flex gap-3 items-center md:py-4 py-2">
-                        <button class="text-white bg-gradient-to-t from-[#BD232B] to-[#BD2930] px-[2vw] py-[.5vw] rounded-[2vw] md:text-[1.5vw] text-[3vw] font-semibold"><a href="./ourApp.html">Our app</a></button>
+                        <button class="text-white bg-gradient-to-t from-[#BD232B] to-[#BD2930] px-[2vw] py-[.5vw] md:rounded-[2vw] rounded-[1vw] md:text-[1.5vw] text-[2vw] font-semibold"><a href="./ourApp.html">Our app</a></button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="app w-screen md:h-[50vw] h-[60vw] ">
-            <div class="section w-screen md:h-[50vw] h-[60vw] flex flex-row-reverse">
-                <div class="image w-[50vw] md:h-full relative ">
-                    <img class="md:h-[70%] md:w-[50vw] h-[60%] object-cover w-[60vw] md:top-[5vw] top-[10vw] left-[0vw] md:left-[-2vw] absolute" src="./src/mockup.png" alt="">
-                    <img class="md:h-[40vw] h-[40vw] object-cover absolute md:top-[7vw] md:left-[5vw] top-[13vw] left-[3vw]" src="./src/shadow.png" alt="">
+        <div class="app w-screen md:h-[50vw] ">
+            <div class="section w-screen md:h-[50vw] flex md:flex-row-reverse flex-col">
+                <div class="image md:w-[50vw] w-screen md:h-full h-[70vw] relative flex flex-col items-center justify-center ">
+                    <img class="md:h-[70%] md:w-[50vw] h-[60vw] object-cover md:top-[5vw] md:left-[-2vw] md:absolute" src="./src/mockup.png" alt="">
+                    <img class="md:h-[40vw] h-[55vw] object-cover absolute md:top-[7vw] md:left-[5vw] top-[18vw] left-[20vw]" src="./src/shadow.png" alt="">
                 </div>
-                <div class="path w-[50vw] md:h-full h-[60vw] flex flex-col justify-center md:pl-[8vw] pl-[5vw]">
-                    <h1 class="md:text-[4vw] text-[5vw] font-black md:leading-normal md:mb-8 mb-2">Unlock your career <span class="text-[#BD2930]">with Hiremi</span></h1>
-                    <p class="md:text-[1.6vw] text-[3vw] font-medium md:mb-8 mb-2 ">provide your details, and we'll connect you with tailored <br> opportunities.</p>
+                <div class="path md:w-[50vw] w-screen md:h-full h-[80vw] flex flex-col justify-center md:pl-[8vw] pl-[5vw] md:px-[0] px-[10vw]">
+                    <h1 class="md:text-[4vw] text-[10vw] font-black md:leading-normal md:mb-8 mb-[1vw]">Unlock your career <span class="text-[#BD2930]">with Hiremi</span></h1>
+                    <p class="md:text-[1.6vw] text-[4vw] font-medium md:mb-8 mb-[1vw] ">provide your details, and we'll connect you with tailored opportunities.</p>
                     <div class="flex gap-3 items-center md:py-4 py-2">
                         <button class="border text-white md:px-[2vw] md:py-[0.5vw] md:text-[1.5vw] text-[3vw] font-semibold px-6 py-1 rounded-full bg-gradient-to-t from-[#a6252b] to-[#ff2c36]"><a href="https://forms.gle/w5dr7uhD6B2XzvgA6 ">Update your details</a></button>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
-            <div class="download md:w-[28vw] w-screen flex flex-col items-center md:items-start justify-center text-center gap-4 pt-5 md:pt-0 md:text-left">
-                <div class="md:w-[28vw] w-screen md:pl-16 flex flex-col items-center md:items-start">
-                    <img class="md:h-[7vw] h-[15vw] md:pl-[0]" src="./src/main.png" alt="">
-                    <p class="md:w-[22vw] w-[70vw] md:text-[1vw] text-[3vw] font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-row items-start justify-between px-[5vw]">
+            <div class="download md:w-[28vw] w-[15vw] flex flex-col items-start md:gap-4 gap-[2vw] md:text-left">
+                <div class="md:w-[28vw] md:pl-[0vw] flex flex-col items-start">
+                    <img class="h-[7vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="md:w-[22vw] w-[17vw] md:text-[1vw] text-[1.5vw] font-semibold text-left">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
                 </div>
-                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 md:pl-[5vw]">
-                    <button class="border-2 border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[4vw] px-6 py-1 rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
-                    <div class=" md:text-[2vw] text-[5vw]">
-                        <i class="ri-apple-fill ml-[1vw]"></i>
+                <div class="md:w-[28vw] w-[20vw] md:divide-x-2 divide-x divide-black flex md:gap-5 gap-[1vw] md:py-4 py-1 md:pl-[0vw] pl-[0vw]">
+                    <button class="md:border-2 border border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[1.5vw] px-[1.5vw] py-[0.5vw] rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
+                    <div class="md:text-[2vw] text-[2vw]">
+                        <i class="ri-apple-fill ml-[0.5vw]"></i>
                         <i class="ri-google-play-fill ml-[0.5vw]"></i>
                     </div>
                 </div>
-                <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
+                <p class="w-[20vw] md:text-[1vw] text-[1.5vw] ">&copy;2021 All Rights Rsserved</p>
             </div>
-            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-4 ">
+            <div class="about md:w-[72vw] w-[85vw] h-full md:text-left flex flex-row md:gap-[4vw] gap-[3vw] pl-[4vw]">
                 <ul class="w-full flex justify-between ">
                     <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./career.html">Jobs</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./internship.html">Internship</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./career.html">Jobs</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./internship.html">Internship</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Company</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./about.html">About Us</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./business.html">Business</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./about.html">About Us</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./business.html">Business</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
                     </li>
                 </ul>
-                <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
+                <div class="flex flex-col justify-start md:gap-5 gap-[3vw] mb-5 ">
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
-                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-2">
-                            <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center md:gap-4 text-center gap-[2vw] md:mb-0 mb-[1.5vw]">
+                            <i class="ri-phone-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">+91-9302707264</h1>
                         </div>
-                        <div class="flex items-center md:gap-4 gap-[5vw]">
-                            <i class="ri-mail-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">support@hiremi.in</h1>
+                        <div class="flex items-center md:gap-4 gap-[2vw]">
+                            <i class="ri-mail-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">support@hiremi.in</h1>
                         </div>
                     </div>
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
                         <div class="md:text-[1.7vw] text-[3.5vw] flex md:gap-3 gap-[2vw] md:ml-[0]">
                             <a href="https://www.instagram.com/hiremi.in/
                             "><img class="md:h-[1.5vw] h-[3vw]" src="./src/instagram.png" alt=""></a>

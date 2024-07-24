@@ -7,7 +7,7 @@ var cross = document.querySelector(".menu i")
 menuIcon.addEventListener("click", function() {
   gsap.to(".menu",{
     right:0,
-    duration: 0.5,
+    duration: 0.3,
     ease: "power2.inOut"
   })
 })
