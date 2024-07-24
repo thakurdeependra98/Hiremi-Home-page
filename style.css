@@ -92,6 +92,7 @@ html, body{
         padding: 4vw 5vw;
         text-align: right;
         border-bottom-left-radius: 2vw;
+        display: block;
     }
     .menu a{
         text-align: left;

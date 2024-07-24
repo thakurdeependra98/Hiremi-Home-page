@@ -6,6 +6,7 @@ var cross = document.querySelector(".menu i")
 
 menuIcon.addEventListener("click", function() {
   gsap.to(".menu",{
+    display:"block",
     right:0,
     duration: 0.3,
     ease: "power2.inOut"
@@ -15,6 +16,7 @@ menuIcon.addEventListener("click", function() {
 const tl = gsap.timeline()
 cross.addEventListener("click", function() {
   tl.to(".menu",{
+    display:"none",
     right:"-30vw",
     duration: 1,
     ease: "power2.inOut"
