@@ -13,114 +13,115 @@
 </head>
 <body>
     <div class="main">
-        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+        <div class="nav w-screen md:h-[10vw] h-[13vw] flex items-center justify-between md:px-[5vw] px-[10vw] py-6 ">
             <a href="./index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
-            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+            <ul class="flex gap-[6vw] text-[1.3vw] font-medium ">
                 <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
                 <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
                 <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
                 <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
             </ul>
-            <a href="./ourApp.html"><button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
-            <i class="menubar ri-menu-line hidden text-black"></i>
-            <div class="menu absolute top-[-10%] px-4">
-                <div class="flex justify-between ">
+            <a href="./ourApp.html"><button class="px-[2.5vw] md:block hidden py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-2-line hidden text-black text-[5vw]"></i>
+            <div class="menu absolute right-[-30vw] top-[0vw] px-4 bg-[#F7F7F7] z-50 hidden">
+                <div class="flex flex-col justify-between gap-[2vw] ">
+                    <i class="ri-close-line text-black"></i>
                     <a href="./about.html">About Us</a>
-                    <a id="serve" href="#">Services</a>
+                    <a id="serve" class="flex flex-row items-center" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
                     <a href="./career.html">Careers</a>
                     <a href="./contact.html">Contact Us</a>
-                    <i class="ri-close-line text-black"></i>
+                    <a href="./ourApp.html">Our app</a>
                 </div>
             </div>
         </div>
-        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[80vw] h-[40vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[60vw] h-[30vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Individuals</h1>
                 <a href="./MentorService.html">Mentorship</a>
                 <a href="./internship.html">Job and Internship Opportunities</a>
                 <a href="./monitorservice.html">Application Monitoring Services</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw] ">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw] ">
                 <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
                 <a href="./project.html">Project Oversight</a>
                 <a href="./recruiter.html">Recruitment Outsourcing</a>
                 <a href="./hiring.html">Recruiters Hiring Platform</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Colleges</h1>
                 <a href="./college.html">College Partnership</a>
             </div>
         </div>
-        <div class="app w-screen md:h-[45vw] h-[60vw] md:my-0 my-20">
-            <div class="section w-screen md:h-[45vw] h-[60vw] flex flex-row-reverse items-center">
-                <div class="image w-[45vw] md:h-[45vw] h-[60vw] relative">
-                    <img class="md:h-[40vw] md:w-[40vw] object-cover w-[60vw] md:top-[2vw] top-[5vw] left-[0vw] md:left-[0vw] absolute z-0" src="./src/project oversight.gif" alt="">
+        <div class="app w-screen md:h-[45vw] md:my-0 my-20">
+            <div class="section w-screen md:h-[45vw] flex flex-col md:flex-row-reverse items-center ">
+                <div class="image md:w-[45vw] w-screen md:h-[45vw] h-[70vw] relative">
+                    <img class="md:h-[40vw] md:w-[40vw] object-cover h-[70vw] w-[80vw] md:top-[2vw] top-[5vw] left-[10vw] md:left-[0vw] absolute z-0" src="./src/project oversight.gif" alt="">
                 </div>
-                <div class="path w-[55vw] md:h-[45vw] h-[60vw] flex flex-col justify-center md:pl-[6vw] pl-[5vw]">
-                    <h1 class="md:text-[4vw] text-[5vw] font-black leading-tight md:mb-[3vw] mb-4"> Project Oversight : <br> Your <span class="text-[#BD2930]">Vision, </span>Our <span class="text-[#BD2930]">Mission </span></h1>
-                    <p class="md:text-[1.4vw] text-[3vw] font-medium leading-tight ">Our Project Oversight Service involves taking full responsibility for our client's projects. We step in to manage, execute, and deliver solutions tailored to meet project goals within specified timelines. Our dedicated team ensures seamless project completion, allowing client companies to focus on their core operations while we handle the project management details from start to finish.</p>
+                <div class="path w-[90vw] md:w-[55vw] md:h-[45vw] h-[100vw] flex flex-col md:justify-center justify-end md:pl-[6vw] pl-[5vw]">
+                    <h1 class="md:text-[4vw] text-[9vw] font-black leading-tight md:mb-[3vw] mb-4"> Project Oversight : <br> Your <span class="text-[#BD2930]">Vision, </span>Our <span class="text-[#BD2930]">Mission </span></h1>
+                    <p class="md:text-[1.4vw] text-[4vw] font-medium leading-tight ">Our Project Oversight Service involves taking full responsibility for our client's projects. We step in to manage, execute, and deliver solutions tailored to meet project goals within specified timelines. Our dedicated team ensures seamless project completion, allowing client companies to focus on their core operations while we handle the project management details from start to finish.</p>
                 </div>
             </div>
         </div>
-        <div class="Keyfeatures w-screen md:h-[38vw] h-[120vw] flex md:flex-row flex-col items-center gap-[5vw] my-[10vw]">
-            <div class="layer w-screen md:h-[38vw] h-[100vw]"></div>
-            <div class="md:w-[40vw] w-screen h-[30vw] flex flex-col justify-center md:items-start items-center pl-[5vw]">
+        <div class="Keyfeatures w-screen md:h-[38vw] h-[50vw] flex flex-row items-center gap-[5vw] my-[10vw]">
+            <div class="layer w-screen md:h-[38vw] h-[50vw]"></div>
+            <div class="w-[40vw] h-[30vw] flex flex-col justify-center items-start pl-[5vw]">
                 <h1 class="md:text-[4vw] text-[5vw] font-black text-white leading-tight mb-[4vw]">Key Features of <span class="text-[#BD2930]">Our Service</span></h1>
-                <p class="md:text-[1.5vw] text-[3vw] font-medium text-white leading-tight text-center md:text-left">Our Applicant Monitoring Services streamline hiring, keep you organized, and provide valuable candidate feedback.</p>
+                <p class="md:text-[1.5vw] text-[1.5vw] font-medium text-white leading-tight text-center md:text-left">Our Applicant Monitoring Services streamline hiring, keep you organized, and provide valuable candidate feedback.</p>
             </div>
-            <div class="feature md:w-[60vw] md:h-[38vw] h-[90vw] grid grid-cols-2 gap-[4vw] px-[5vw] py-[2vw]">
-                <div class="drop-shadow-xl md:w-[22vw] md:h-[16vw] py-[1vw] w-[40vw]">
-                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[12vw] h-[12vw] flex items-center justify-center rounded-full">
+            <div class="feature w-[60vw] md:h-[38vw] h-[50vw] grid grid-cols-2 gap-[2vw] px-[5vw] py-[2vw]">
+                <div class="w-[22vw] md:h-[16vw] py-[1vw]">
+                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[7vw] h-[7vw] flex items-center justify-center rounded-full">
                         <img class="h-[50%]" src="./src/setting 5.png" alt="">
                     </div>
                     <div class="conatain">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-black md:my-[1vw] text-[#BD2930]">Innovation :</h1>
-                        <p class="md:text-[1.3vw] text-[3vw] font-medium text-white" >We foster innovation throughout project phases to drive continuous improvement.</p>
+                        <h1 class="md:text-[1.4vw] text-[2vw] font-black md:my-[1vw] text-[#BD2930]">Innovation :</h1>
+                        <p class="md:text-[1.3vw] text-[1.6vw] font-medium text-white" >We foster innovation throughout project phases to drive continuous improvement.</p>
                     </div>
                 </div>
-                <div class="md:w-[22vw] md:h-[16vw] py-[1vw] w-[40vw]">
-                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[12vw] h-[12vw] flex items-center justify-center rounded-full">
+                <div class="w-[22vw] md:h-[16vw] py-[1vw]">
+                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[7vw] h-[7vw] flex items-center justify-center rounded-full">
                         <img class="h-[50%]" src="./src/time-left.png" alt="">
                     </div>
                     <div class="conatain">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-black md:my-[1vw] text-[#BD2930]">Timely Project Delivery:</h1>
-                        <p class="md:text-[1.3vw] text-[3vw] font-medium text-white leading-tight">We prioritize meeting deadlines and project milestones effectively.</p>
+                        <h1 class="md:text-[1.4vw] text-[2vw] font-black md:my-[1vw] text-[#BD2930]">Timely Project Delivery:</h1>
+                        <p class="md:text-[1.3vw] text-[1.6vw] font-medium text-white leading-tight">We prioritize meeting deadlines and project milestones effectively.</p>
                     </div>
                 </div>
-                <div class="md:w-[22vw] md:h-[16vw] py-[1vw] w-[40vw]">
-                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[12vw] h-[12vw] flex items-center justify-center rounded-full">
+                <div class="w-[22vw] md:h-[16vw] py-[1vw]">
+                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[7vw] h-[7vw] flex items-center justify-center rounded-full">
                         <img class="h-[50%]" src="./src/network.png" alt="">
                     </div>
                     <div class="conatain">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-black md:my-[1vw] text-[#BD2930]">Multi-Domain Expertise :</h1>
-                        <p class="md:text-[1.3vw] text-[3vw] font-medium text-white leading-tight">Whether tech or non-tech, we handle diverse project domains with expertise.</p>
+                        <h1 class="md:text-[1.4vw] text-[2vw] font-black md:my-[1vw] text-[#BD2930]">Multi-Domain Expertise :</h1>
+                        <p class="md:text-[1.3vw] text-[1.6vw] font-medium text-white leading-tight">Whether tech or non-tech, we handle diverse project domains with expertise.</p>
                     </div>
                 </div>
-                <div class="md:w-[22vw] md:h-[16vw] py-[1vw] w-[40vw]">
-                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[12vw] h-[12vw] flex items-center justify-center rounded-full">
+                <div class="w-[22vw] md:h-[16vw] py-[1vw]">
+                    <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[7vw] h-[7vw] flex items-center justify-center rounded-full">
                         <img class="h-[50%]" src="./src/project.png" alt="">
                     </div>
                     <div class="conatain">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-black md:my-[1vw] text-[#BD2930]">Efficient Execution :</h1>
-                        <p class="md:text-[1.3vw] text-[3vw] font-medium text-white leading-tight">Our team ensures efficient execution and timely delivery of projects.</p>
+                        <h1 class="md:text-[1.4vw] text-[2vw] font-black md:my-[1vw] text-[#BD2930]">Efficient Execution :</h1>
+                        <p class="md:text-[1.3vw] text-[1.6vw] font-medium text-white leading-tight">Our team ensures efficient execution and timely delivery of projects.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="features w-screen md:h-[45vw] flex flex-col items-center gap-[3vw] md:my-0 my-[10vw]">
-            <h1 class="md:text-[4vw] text-[5vw] font-black">Our Approach to <span class="text-[#BD2930]">Project Oversight</span></h1>
-            <p class="md:w-[55vw] w-[80vw] md:text-[1.4vw] text-[3vw] font-medium text-center ">Our project oversight ensures a seamless process from understanding your needs to implementing the best-fit solutions for successful project outcomes.</p>
-            <div class="feature w-screen md:h-[40vw] flex md:flex-row flex-col gap-[1vw] px-[5vw] items-center justify-center md:mt-[0vw] mt-[10vw]">
+        <div class="features w-screen md:h-[45vw] flex flex-col items-center gap-[3vw] md:my-0 my-[10vw] md:px-0 px-[10vw] ">
+            <h1 class="md:text-[4vw] text-[10vw] font-black">Our Approach to <span class="text-[#BD2930]">Project Oversight</span></h1>
+            <p class="md:w-[55vw] w-[80vw] md:text-[1.4vw] text-[4vw] font-medium md:text-center ">Our project oversight ensures a seamless process from understanding your needs to implementing the best-fit solutions for successful project outcomes.</p>
+            <div class="feature w-screen md:h-[40vw] flex md:flex-row flex-col md:gap-[1vw] gap-[8vw] px-[5vw] items-center justify-center md:mt-[0vw] mt-[10vw]">
                 <div class="drop-shadow-xl bg-[#F8F8F8] md:w-[24vw] md:h-[22vw] w-[80vw] shadow-xl px-[1vw] py-[2vw] border border-[#8F8F8F] rounded-2xl text-center flex flex-col justify-center items-center">
                     <div class="logo bg-[#BD2930] md:w-[4vw] md:h-[4vw] w-[12vw] h-[12vw] flex items-center justify-center rounded-full ">
                         <img class="h-[50%]" src="./src/user project.png" alt="">
                     </div>
                     <div class="conatain">
                         <h1 class="md:text-[1.3vw] text-[3.5vw] font-black my-[2vw] text-[#BD2930] leading-normal">Understanding the Scope :</h1>
-                        <p class="md:text-[1.1vw] text-[3vw] font-medium">We start by thoroughly understanding the project scope, objectives, and constraints through detailed analysis and stakeholder discussions.</p>
+                        <p class="md:text-[1.1vw] text-[2.5vw] font-medium md:px-0 px-[2vw]">We start by thoroughly understanding the project scope, objectives, and constraints through detailed analysis and stakeholder discussions.</p>
                     </div>
                 </div>
-                <div class="md:rotate-[0] rotate-[90deg] md:h-[0] h-[20vw] flex items-center justify-center">
+                <div class="md:rotate-[0] rotate-[90deg] md:h-[0] h-[15vw] flex items-center justify-center">
                     <img src="./src/Arrow 3.png" alt="">
                 </div>
                 <div class="drop-shadow-xl bg-[#F8F8F8] md:w-[24vw] md:h-[22vw] w-[80vw] shadow-xl px-[1vw] py-[2vw] border border-[#8F8F8F] rounded-2xl text-center flex flex-col justify-center items-center">
@@ -129,10 +130,10 @@
                     </div>
                     <div class="conatain">
                         <h1 class="md:text-[1.3vw] tetx-[3.5vw] font-black my-[2vw] text-[#BD2930] leading-normal">Brainstorming Multiple Solutions :</h1>
-                        <p class="md:text-[1.1vw] text-[3vw] font-medium leading-tight">We brainstorm and evaluate various solutions tailored to address specific project challenges and maximize opportunities.</p>
+                        <p class="md:text-[1.1vw] text-[2.5vw] font-medium md:px-0 px-[2vw] leading-tight">We brainstorm and evaluate various solutions tailored to address specific project challenges and maximize opportunities.</p>
                     </div>
                 </div>
-                <div class="md:rotate-[0] rotate-[90deg] md:h-[0] h-[20vw] flex items-center justify-center">
+                <div class="md:rotate-[0] rotate-[90deg] md:h-[0] h-[15vw] flex items-center justify-center">
                     <img src="./src/Arrow 3.png" alt="">
                 </div>
                 <div class="drop-shadow-xl bg-[#F8F8F8] md:w-[24vw] md:h-[22vw] w-[80vw] shadow-xl px-[1vw] py-[2vw] border border-[#8F8F8F] rounded-2xl text-center flex flex-col justify-center items-center">
@@ -141,79 +142,79 @@
                     </div>
                     <div class="conatain">
                         <h1 class="md:text-[1.3vw] tetx-[3.5vw] font-black my-[2vw] text-[#BD2930] leading-normal">Executing the Optimal Solution :</h1>
-                        <p class="md:text-[1.1vw] text-[3vw] font-medium leading-tight">Once the optimal solution is identified, we execute it efficiently, focusing on effective project management, risk mitigation, and timely delivery.</p>
+                        <p class="md:text-[1.1vw] text-[2.5vw] font-medium md:px-0 px-[2vw] leading-tight">Once the optimal solution is identified, we execute it efficiently, focusing on effective project management, risk mitigation, and timely delivery.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="app w-screen md:h-[30vw] h-[50vw] md:my-10 my-20 bg-black">
-            <div class="section w-screen md:h-[45vw] h-[50vw] flex flex-row-reverse">
-                <div class="image w-[45vw] md:h-[30vw] relative">
-                    <img class="md:h-[30vw] md:w-[30vw] h-[40vw] object-cover w-[60vw] md:top-[0vh] top-[5vw] left-[0vw] md:left-[10vw] absolute z-0" src="./src/call center.gif" alt="">
+        <div class="app w-screen md:h-[30vw] h-[40vw] md:my-10 my-10 bg-black">
+            <div class="section w-screen md:h-[45vw] h-[40vw] flex flex-row-reverse">
+                <div class="image w-[45vw] md:h-[30vw] h-[40vw] relative">
+                    <img class="md:h-[30vw] md:w-[30vw] h-[34vw] object-cover w-[35vw] md:top-[0vh] top-[5vw] left-[5vw] md:left-[10vw] absolute z-0" src="./src/call center.gif" alt="">
                 </div>
-                <div class="path w-[55vw] md:h-[30vw] h-[50vw] flex flex-col justify-center md:gap-[2vw] gap-[3vw] md:pl-[6vw] pl-[5vw] text-white">
+                <div class="path w-[55vw] md:h-[30vw] h-[40vw] flex flex-col justify-center md:gap-[2vw] gap-[3vw] md:pl-[6vw] pl-[5vw] text-white">
                     <h3 class="md:text-[1.8vw] text-[2.5vw] font-medium">How to Get Started</h3>
                     <h1 class="md:text-[2.8vw] text-[2.8vw] font-semibold leading-tight md:mb-[2vw] mb-[1vw]"> <span class="text-[#BD2930]">Partner with Us:</span> Discover how our operations can drive your business forward.</h1>
-                    <a href="mailto:careers@hiremi.in"><button class="md:w-[15vw] w-[20vw] md:text-[1.8vw] text-[2.8vw] bg-[#BD2930] px-2 py-1 rounded-2xl">Contact us</button></a>
+                    <a href="mailto:careers@hiremi.in"><button class="md:w-[15vw] w-[20vw] md:text-[1.8vw] text-[2.8vw] bg-[#BD2930] md:px-2 md:py-1 px-[3vw] py-[1vw] rounded-full">Contact us</button></a>
                 </div>
             </div>
         </div>
-        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
-            <div class="download md:w-[28vw] w-screen flex flex-col items-center md:items-start justify-center text-center gap-4 pt-5 md:pt-0 md:text-left">
-                <div class="md:w-[28vw] w-screen md:pl-16 flex flex-col items-center md:items-start">
-                    <img class="md:h-[7vw] h-[15vw] md:pl-[0]" src="./src/main.png" alt="">
-                    <p class="md:w-[22vw] w-[70vw] md:text-[1vw] text-[3vw] font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-row items-start justify-between px-[5vw]">
+            <div class="download md:w-[28vw] w-[15vw] flex flex-col items-start md:gap-4 gap-[2vw] md:text-left">
+                <div class="md:w-[28vw] md:pl-[0vw] flex flex-col items-start">
+                    <img class="h-[7vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="md:w-[22vw] w-[17vw] md:text-[1vw] text-[1.5vw] font-semibold text-left">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
                 </div>
-                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 md:pl-[5vw]">
-                    <button class="border-2 border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[4vw] px-6 py-1 rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
-                    <div class=" md:text-[2vw] text-[5vw]">
-                        <i class="ri-apple-fill ml-[1vw]"></i>
+                <div class="md:w-[28vw] w-[20vw] md:divide-x-2 divide-x divide-black flex md:gap-5 gap-[1vw] md:py-4 py-1 md:pl-[0vw] pl-[0vw]">
+                    <button class="md:border-2 border border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[1.5vw] px-[1.5vw] py-[0.5vw] rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
+                    <div class="md:text-[2vw] text-[2vw]">
+                        <i class="ri-apple-fill ml-[0.5vw]"></i>
                         <i class="ri-google-play-fill ml-[0.5vw]"></i>
                     </div>
                 </div>
-                <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
+                <p class="w-[20vw] md:text-[1vw] text-[1.5vw] ">&copy;2021 All Rights Rsserved</p>
             </div>
-            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-4 ">
+            <div class="about md:w-[72vw] w-[85vw] h-full md:text-left flex flex-row md:gap-[4vw] gap-[3vw] pl-[4vw]">
                 <ul class="w-full flex justify-between ">
                     <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./career.html">Jobs</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./internship.html">Internship</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./career.html">Jobs</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./internship.html">Internship</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
                     </li>
                     <li class="flex flex-col md:gap-5 gap-[1.5vw]">
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Company</h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./about.html">About Us</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./business.html">Business</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
-                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./about.html">About Us</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./business.html">Business</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[1.3vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
                     </li>
                 </ul>
-                <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
+                <div class="flex flex-col justify-start md:gap-5 gap-[3vw] mb-5 ">
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
-                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-2">
-                            <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center md:gap-4 text-center gap-[2vw] md:mb-0 mb-[1.5vw]">
+                            <i class="ri-phone-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">+91-9302707264</h1>
                         </div>
-                        <div class="flex items-center md:gap-4 gap-[5vw]">
-                            <i class="ri-mail-line md:text-[1.7vw] text-[3.5vw]"></i>
-                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">support@hiremi.in</h1>
+                        <div class="flex items-center md:gap-4 gap-[2vw]">
+                            <i class="ri-mail-line md:text-[1.4vw] text-[2.8vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[1.6vw] font-medium">support@hiremi.in</h1>
                         </div>
                     </div>
                     <div>
-                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
+                        <h1 class="md:text-[1.4vw] text-[1.8vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
                         <div class="md:text-[1.7vw] text-[3.5vw] flex md:gap-3 gap-[2vw] md:ml-[0]">
                             <a href="https://www.instagram.com/hiremi.in/
                             "><img class="md:h-[1.5vw] h-[3vw]" src="./src/instagram.png" alt=""></a>
