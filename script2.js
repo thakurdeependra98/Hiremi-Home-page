@@ -77,7 +77,7 @@ if (window.innerWidth >= 768) {
   }
   else{
     gsap.from(".steps",{
-      top:"180vw",
+      top:"200vw",
       duration:8,
       stagger:10,
       scrollTrigger:{
