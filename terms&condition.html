@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav w-screen md:h-[10vw] h-[13vw] flex items-center justify-between md:px-[5vw] px-[10vw] py-6 relative z-50">
+            <a href="./index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
+            <ul class="flex gap-[6vw] text-[1.3vw] font-medium ">
+                <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
+                <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
+                <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
+                <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
+            </ul>
+            <a href="./ourApp.html"><button class="px-[2.5vw] md:block hidden py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-2-line hidden text-black text-[5vw]"></i>
+            <div class="menu absolute right-[-30vw] top-[0vw] px-4 bg-[#F7F7F7] ">
+                <div class="flex flex-col justify-between gap-[2vw] ">
+                    <i class="ri-close-line text-black"></i>
+                    <a href="./about.html">About Us</a>
+                    <a id="serve" class="flex flex-row items-center" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
+                    <a href="./career.html">Careers</a>
+                    <a href="./contact.html">Contact Us</a>
+                    <a href="./ourApp.html">Our app</a>
+                </div>
+            </div>
+        </div>
+        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[60vw] h-[30vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
+                <h1 class="text-[#BD2930] font-black">For Individuals</h1>
+                <a href="./MentorService.html">Mentorship</a>
+                <a href="./internship.html">Job and Internship Opportunities</a>
+                <a href="./monitorservice.html">Application Monitoring Services</a>
+            </div>
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw] ">
+                <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
+                <a href="./project.html">Project Oversight</a>
+                <a href="./recruiter.html">Recruitment Outsourcing</a>
+                <a href="./hiring.html">Recruiters Hiring Platform</a>
+            </div>
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
+                <h1 class="text-[#BD2930] font-black">For Colleges</h1>
+                <a href="./college.html">College Partnership</a>
+            </div>
+        </div>
+        <div class="term md:w-screen md:h-[60vw] md:my-0 my-[5vw]">
+            <div class="w-screen md:h-[40vw] h-[120vw] flex md:flex-row flex-col-reverse items-center justify-center px-[5vw]">
+                <div class="md:w-[60vw] w-[90vw] flex flex-col gap-[3vw] ">
+                    <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">Terms & Conditions:</h1>
+                    <p class="md:text-[1.3vw] text-[2.5vw] font-medium">Welcome to Hiremi, a premier platform dedicated to revolutionizing workforce solutions. As you embark on a journey through our website and engage with our services, you enter into a binding agreement with CRTD TECHNOLOGIES (OPC) PRIVATE LIMITED, the esteemed owner of Hiremi. Your commitment to periodic reviews ensures alignment with the evolving landscape of our offerings, encapsulated in these comprehensive Terms, complemented by our Privacy Policy. To optimize your experience, we emphasize the importance of providing accurate information during and after registration. While we strive for the utmost accuracy in the information and materials presented, both on our website and through our services, it is essential to note that neither we nor third parties can guarantee absolute completeness or suitability.</p>
+                </div>
+                <div class="md:w-[50vw] md:h-[40vw] w-[90vw] h-[60vw] flex items-center justify-center">
+                    <img class="md:h-[40vw] h-[60vw]" src="./src/contract.gif" alt="">
+                </div>
+            </div>
+            <div class="w-screen md:h-[20vw] h-[60vw] px-[5vw]">
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium">Your interaction with Hiremi is undertaken at your own discretion and risk. We encourage you to autonomously verify that our services align seamlessly with your unique requirements. The proprietary nature of our website's content underscores its exclusivity, with any unauthorized use subject to corrective measures. In alignment with these terms, we appreciate your cooperation in refraining from engaging in any unlawful or prohibited activities through our platform. Furthermore, as you navigate our website, any interaction with third-party links is subject to the terms and policies of those external entities. Initiating a transaction with us signifies the commencement of a legally binding contract. Your entitlement to claim a refund in cases where our service delivery falls short is upheld with transparency and fairness, as outlined in our policies. Force majeure events, beyond our control, may exempt parties from specific obligations stipulated in these terms. The jurisdiction governing these terms is the law of India, with any disputes exclusively subject to the competent courts in BHOPAL, madhya pradesh.</p>
+            </div>
+        </div>
+        <div class="cancel w-screen md:h-[75vw] px-[5vw] gap-[3vw] flex flex-col md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">Cancellation & Refund Policy:</h1>
+            <p class="md:text-[1.4vw] text-[2.8vw] font-medium">CRTD TECHNOLOGIES (OPC) PRIVATE LIMITED, operating under the name Hiremi, is committed to providing a seamless and satisfactory experience for its users. Our cancellation and refund policy is designed with your convenience in mind:</p>
+            <div>
+                <ul class="mb-[2vw]" >
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">1. Service Cancellation: </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">Users have the option to cancel a service request before its initiation.</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">Cancellations are subject to the specific terms and conditions outlined for each service.</li>
+                </ul>
+                <ul class="mb-[2vw]">
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">2. Refund Process: </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]"> Refund eligibility is determined based on the nature of the service and adherence to the cancellation policy. </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">Cancellations are subject to the specific terms and conditions outlined for each service.</li>
+                </ul>
+                <ul class="mb-[2vw]">
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">3. Refund Timeframe:</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]"> The processing time for refunds varies and is contingent upon the nature of the service. </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">Users will be informed of the estimated timeframe for their specific refund request.</li>
+                </ul>
+                <ul class="mb-[2vw]">
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">4. Exceptions:</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]"> Certain services may have unique cancellation and refund policies, which will be clearly communicated to users.  </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">In case of any discrepancy or exceptional circumstances, users are encouraged to reach out for personalized assistance.</li>
+                </ul>
+                <ul class="mb-[2vw]">
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">5. Contact Us:</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]"> For any inquiries, concerns, or refund requests, users can contact our customer support team through the provided communication channels. </li>
+                </ul>
+                <ul class="mb-[2vw]">
+                    <li class="font-bold md:text-[1.5vw] text-[2.5vw]">6. Policy Updates:</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">  CRTD TECHNOLOGIES (OPC) PRIVATE LIMITED reserves the right to update or modify the cancellation and refund policy. Users are advised to stay informed about any changes. </li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">Hiremi values the satisfaction of its users and strives to address concerns with fairness and transparency. Your understanding and cooperation with our cancellation and refund policy are appreciated</li>
+                    <li class="list-disc ml-[4vw] font-medium md:text-[1.4vw] text-[2.5vw]">For any assistance or clarification, please reach out to us through the contact information provided on the Hiremi website.</li>
+                </ul>
+                
+
+            </div>
+        </div>
+        <div class="privacy w-screen md:h-[20vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">Privacy Policy:</h1>
+            <p class="md:text-[1.3vw] text-[2.5vw] font-medium">This Privacy Policy outlines the procedures employed by CRTD TECHNOLOGIES (OPC) PRIVATE LIMITED ("we," "us," "our") in the collection, handling, and processing of data provided by you in connection with the use of our products or services on the Hiremi website. By utilizing this website or availing goods and services from us, you acknowledge and agree to the terms and conditions outlined in this Privacy Policy, providing consent for the use, storage, disclosure, and transfer of your information or data as described herein.</p>
+        </div>
+        <div class="data w-screen md:h-[30vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">What data is being collected</h1>
+            <div>
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium">We may collect the following information from you:</p>
+                <ul class="list-disc md:text-[1.3vw] text-[2.5vw] font-medium ml-[3vw]">
+                    <li> Name </li>
+                    <li>Contact information including address and email address</li>
+                    <li> Demographic information or preferences or interests </li>
+                    <li> Personal Data or Other information relevant/required for providing the goods or services to you </li>
+                </ul>
+            </div>
+            <p class="md:text-[1.3vw] text-[2.5vw] font-medium">The meaning of Personal Data will be as defined under relevant Indian laws. Note: Notwithstanding anything under this Policy as required under applicable Indian laws, we will not be storing any credit card, debit card, or any other similar card data of yours. Please also note that all data or information collected from you will be strictly in accordance with applicable laws and guidelines</p>
+        </div>
+        <div class="data w-screen md:h-[25vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">What we do with the data we gather</h1>
+            <div>
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium mb-[2vw]">We require this data to provide you with the goods or services offered by us, including but not limited to, for the below set-out purposes:</p>
+                <ul class="list-disc md:text-[1.3vw] text-[2.5vw] font-medium ml-[3vw]">
+                    <li> Internal record keeping. </li>
+                    <li> For improving our products or services.</li>
+                    <li> For providing updates to you regarding our products or services, including any special offers. </li>
+                    <li>To communicate information to you</li>
+                    <li>For internal training and quality assurance purposes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="data w-screen md:h-[30vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">Who do we share your data with</h1>
+            <div>
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium mb-[2vw]">We may share your information or data with:</p>
+                <ul class="list-disc md:text-[1.3vw] text-[2.5vw] font-medium ml-[3vw]">
+                    <li> Third parties, including our service providers, to facilitate the provisions of goods or services to you, carry out your requests, respond to your queries, fulfill your orders, or for other operational and business reasons.</li>
+                    <li> With our group companies (to the extent relevant)</li>
+                    <li> Our auditors or advisors to the extent required by them for performing their services </li>
+                    <li>Governmental bodies, regulatory authorities, law enforcement authorities pursuant to our legal obligations or compliance requirements.</li>
+                    <li>For internal training and quality assurance purposes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="data w-screen md:h-[25vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="md:text-[4vw] text-[8vw] text-[#BD2930] font-black">How we use cookies</h1>
+            <div>
+                <ul class="list-disc md:text-[1.3vw] text-[2.5vw] font-medium ml-[3vw]">
+                    <li> Right to Review</li>
+                    <li> - You can review the data provided by you and can request us to correct or amend such data (to the extent feasible, as determined by us). That said, we will not be responsible for the authenticity of the data or information provided by you.</li>
+                    <li> Withdrawal of your consent</li>
+                    <li>consent provided to us earlier, in writing to our email ID: crtdgroup@gmail.com In the event you choose not to provide or later withdraw your consent, we may not be able to provide you our services or goods. Please note that these rights are subject to our compliance with applicable laws.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="data w-screen md:h-[30vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="w-[70vw] md:text-[4vw] text-[8vw] text-[#BD2930] font-black">How long will we retain your information or data?</h1>
+            <div>
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium mb-[2vw]">We may retain your information or data:</p>
+                <ul class="list-disc md:text-[1.3vw] text-[2.5vw] font-medium ml-[3vw]">
+                    <li>For as long as we are providing goods and services to you</li>
+                    <li> As permitted under applicable law, we may also retain your data or information even after you terminate the business relationship with us. However, we will process such information or data in accordance with applicable laws and this Policy.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="data w-screen md:h-[15vw] px-[5vw] flex flex-col gap-[3vw] md:my-0 my-[5vw]">
+            <h1 class="w-[70vw] md:text-[4vw] text-[8vw] text-[#BD2930] font-black">Data Security</h1>
+            <div>
+                <p class="md:text-[1.3vw] text-[2.5vw] font-medium mb-[2vw]">We will use commercially reasonable and legally required precautions to preserve the integrity and security of your information and data.</p>
+            </div>
+        </div>
+        <footer class="md:w-screen md:h-[30vw] h-auto md:pt-20 py-10 flex flex-col-reverse md:flex-row">
+            <div class="download md:w-[28vw] w-screen flex flex-col items-center md:items-start justify-center text-center gap-4 pt-5 md:pt-0 md:text-left">
+                <div class="md:w-[28vw] w-screen md:pl-16 flex flex-col items-center md:items-start">
+                    <img class="md:h-[7vw] h-[15vw] md:pl-[0]" src="./src/main.png" alt="">
+                    <p class="md:w-[22vw] w-[70vw] md:text-[1vw] text-[3vw] font-semibold">Your One-stop destination for jobs, internships, and mentorship program all over India.</p>
+                </div>
+                <div class="divide-x-2 divide-black flex gap-5 md:py-4 py-2 md:pl-[5vw]">
+                    <button class="border-2 border-black md:px-[2.5vw] md:py-[0.5vw] md:text-[1.5vw] text-[4vw] px-6 py-1 rounded-full font-semibold"><a href="./launch.html">Get the app</a></button>
+                    <div class=" md:text-[2vw] text-[5vw]">
+                        <i class="ri-apple-fill ml-[1vw]"></i>
+                        <i class="ri-google-play-fill ml-[0.5vw]"></i>
+                    </div>
+                </div>
+                <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
+            </div>
+            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-[5vw] ">
+                <ul class="w-full flex justify-between ">
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./college.html">College Partnershi</a>p</h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Individuals</h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./MentorService.html">Mentorship</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./monitorservice.html">Monitoring</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./career.html">Jobs</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./internship.html">Internship</a></h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Businesses</h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./project.html">Project Oversight</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./recruiter.html">Outsourcing</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./hiring.html">Hiring Platform</a></h1>
+                    </li>
+                    <li class="flex flex-col md:gap-5 gap-[1.5vw]">
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Company</h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./about.html">About Us</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./business.html">Business</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./ourApp.html">Our App</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./contact.html">Contact Us</a></h1>
+                        <h1 class="md:text-[1.2vw] text-[2.5vw] font-medium"><a href="./terms&condition.html">Terms & Condition</a></h1>
+                    </li>
+                </ul>
+                <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
+                    <div>
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
+                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-[2vw]">
+                            <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
+                        </div>
+                        <div class="flex items-center md:gap-4 gap-[5vw]">
+                            <i class="ri-mail-line md:text-[1.7vw] text-[3.5vw]"></i>
+                            <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">support@hiremi.in</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="md:text-[1.4vw] text-[3.5vw] font-bold text-[#BD2930] mb-2 md:mt-5">Follow us</h1>
+                        <div class="md:text-[1.7vw] text-[3.5vw] flex md:gap-3 gap-[2vw] md:ml-[0]">
+                            <a href="https://www.instagram.com/hiremi.in/
+                            "><img class="md:h-[1.5vw] h-[3vw]" src="./src/instagram.png" alt=""></a>
+                            <a href="https://www.linkedin.com/company/hiremi/
+                            "><img class="md:h-[1.5vw] h-[3vw]" src="./src/linkedin.png" alt=""></a>
+                            <a href="https://www.youtube.com/@Hiremitechnologies
+                            "><img class="md:h-[1.5vw] h-[3vw]" src="./src/youtube.png" alt=""></a>
+                            <a href="https://wa.me/+919302707264"><img class="md:h-[1.5vw] h-[3vw]" src="./src/whatsapp.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

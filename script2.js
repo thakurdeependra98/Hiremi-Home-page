@@ -84,7 +84,7 @@ if (window.innerWidth >= 768) {
         trigger: "#process",
         start:"top 0%",
         end: "top -300%",
-        scrub: 2,
+        scrub: 4,
         pin: true,
         // markers: true,
       }
