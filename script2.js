@@ -83,8 +83,8 @@ if (window.innerWidth >= 768) {
       scrollTrigger:{
         trigger: "#process",
         start:"top 0%",
-        end: "top -00%",
-        scrub: 1,
+        end: "top -300%",
+        scrub: 2,
         pin: true,
         // markers: true,
       }
