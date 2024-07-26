@@ -76,5 +76,20 @@ if (window.innerWidth >= 768) {
     console.log("process")
   }
   else{
+    gsap.from(".steps",{
+      top:"70vw",
+      duration:8,
+      stagger:10,
+      scrollTrigger:{
+        trigger: "#process",
+        start:"top 0%",
+        end: "top -400%",
+        scrub: 1,
+        pin: true,
+        // markers: true,
+      }
+    })
     console.log("WARNING")
   }
+
+  

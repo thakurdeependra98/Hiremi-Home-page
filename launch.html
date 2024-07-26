@@ -13,40 +13,41 @@
 </head>
 <body>
     <div class="main">
-        <div class="nav w-screen h-[10vw] flex items-center justify-between px-[5vw] py-6">
+        <div class="nav w-screen md:h-[10vw] h-[13vw] flex items-center justify-between md:px-[5vw] px-[10vw] py-6 relative z-50">
             <a href="./index.html"><img class="h-16" src="./src/main.png" alt="Home page"></a>
-            <ul class="flex gap-[6vw] text-[1.5vw] font-medium ">
+            <ul class="flex gap-[6vw] text-[1.3vw] font-medium ">
                 <li><a  class="hover:text-[#BD2930]" href="./about.html">About Us</a></li>
                 <li id="service" class="flex gap-1"><a class="hover:text-[#BD2930]" href="#">Services</a><i class="ri-arrow-down-s-line pt-1"></i></li>
                 <li><a class="hover:text-[#BD2930]" href="./career.html">Careers</a></li>
                 <li><a class="hover:text-[#BD2930]" href="./contact.html">Contact Us</a></li>
             </ul>
-            <a href="./ourApp.html"><button class="px-[2.5vw] py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
-            <i class="menubar ri-menu-line hidden text-black"></i>
-            <div class="menu absolute top-[-10%] px-4">
-                <div class="flex justify-between ">
+            <a href="./ourApp.html"><button class="px-[2.5vw] md:block hidden py-[0.5vw] rounded-full text-white text-lg font-semibold">Our App</button></a>
+            <i class="menubar ri-menu-2-line hidden text-black text-[5vw]"></i>
+            <div class="menu absolute right-[-30vw] top-[0vw] px-4 bg-[#F7F7F7] ">
+                <div class="flex flex-col justify-between gap-[2vw] ">
+                    <i class="ri-close-line text-black"></i>
                     <a href="./about.html">About Us</a>
-                    <a id="serve" href="#">Services</a>
+                    <a id="serve" class="flex flex-row items-center" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
                     <a href="./career.html">Careers</a>
                     <a href="./contact.html">Contact Us</a>
-                    <i class="ri-close-line text-black"></i>
+                    <a href="./ourApp.html">Our app</a>
                 </div>
             </div>
         </div>
-        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[80vw] h-[40vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+        <div class="services md:w-[78vw] md:h-[18vw] bg-[#F7F7F7] w-[60vw] h-[30vw] opacity-0 top-[-50vw] drop-shadow-xl z-50 absolute flex justify-around ml-[10vw] md:rounded-[2vw] rounded-lg py-[2.5vw] pl-5">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Individuals</h1>
                 <a href="./MentorService.html">Mentorship</a>
                 <a href="./internship.html">Job and Internship Opportunities</a>
                 <a href="./monitorservice.html">Application Monitoring Services</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw] ">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw] ">
                 <h1 class="text-[#BD2930] font-black">For Bussiness</h1>
                 <a href="./project.html">Project Oversight</a>
                 <a href="./recruiter.html">Recruitment Outsourcing</a>
                 <a href="./hiring.html">Recruiters Hiring Platform</a>
             </div>
-            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[2.5vw]">
+            <div class="flex flex-col md:gap-[1.5vw] gap-[1.8vw] font-medium md:text-[1.4vw] text-[1.8vw]">
                 <h1 class="text-[#BD2930] font-black">For Colleges</h1>
                 <a href="./college.html">College Partnership</a>
             </div>
@@ -85,7 +86,7 @@
                 </div>
                 <p class="md:text-[1vw] text-[3vw] md:pl-20">&copy;2021 All Rights Rsserved</p>
             </div>
-            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-4 ">
+            <div class="about md:w-[72vw] w-screen h-full md:text-left md:flex gap-[4vw] md:px-16 px-[5vw] ">
                 <ul class="w-full flex justify-between ">
                     <li class="flex flex-col md:gap-5 gap-[1.5vw] md:mb-5">
                         <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Colleges</h1>
@@ -115,7 +116,7 @@
                 <div class="flex md:flex-col md:justify-start justify-between md:gap-5 mb-5 md:mt-0 mt-10">
                     <div>
                         <h1 class="md:text-[1.4vw] text-[3.5vw] mb-2 font-bold text-[#BD2930]">Contact Us</h1>
-                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-2">
+                        <div class="flex items-center md:gap-4 text-center gap-[5vw] md:mb-0 mb-[2vw]">
                             <i class="ri-phone-line md:text-[1.7vw] text-[3.5vw]"></i>
                             <h1 class="md:text-[1.2vw] text-[3.1vw] font-medium">+91-9302707264</h1>
                         </div>
