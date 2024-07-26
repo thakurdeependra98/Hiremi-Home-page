@@ -77,13 +77,13 @@ if (window.innerWidth >= 768) {
   }
   else{
     gsap.from(".steps",{
-      top:"70vw",
+      top:"180vw",
       duration:8,
       stagger:10,
       scrollTrigger:{
         trigger: "#process",
         start:"top 0%",
-        end: "top -400%",
+        end: "top -300%",
         scrub: 1,
         pin: true,
         // markers: true,
